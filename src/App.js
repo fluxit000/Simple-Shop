@@ -1,24 +1,13 @@
 import './App.css';
+import Navbar from './components/navbar';
+import Products from './components/products';
 
 function App() {
   return (
     <>
-      <nav>
-        <div id='shop-title'>
-          Simple Shop
-        </div>
-        <input autoComplete="off" type="text"/>
-        <div className='icons'>
-          <span class="icon-svg">
-            person_outline
-          </span>
-          <span class="icon-svg">
-            shopping_cart
-          </span>
-        </div>
-      </nav> 
+      <Navbar/>
       <main>
-
+        <Products/>
       </main>
     </>
   );
