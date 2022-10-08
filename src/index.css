@@ -9,4 +9,6 @@ body {
   --background-color: white;
   background-color: var(--background-color);
   color: black;
+
+  overflow-x: hidden;
 }

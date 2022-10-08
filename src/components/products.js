@@ -28,7 +28,7 @@ const Products = ()=>{
   return(<div id="products">
     {products.map((product,id)=>
       <div className="product" key={id}>
-        <img className="product-image" src={product.imageUrl}/>
+        <div className="product-image-holder"><img className="product-image" src={product.imageUrl}/></div>
         <div className="product-title">{product.title.length > 20 && width < 680 ? product.title.slice(0,20)+"...":product.title}</div>
         <div className="product-price">{product.price} zł</div>
       </div>
