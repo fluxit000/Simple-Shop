@@ -19,9 +19,6 @@
     max-width: 100%; 
     height: auto;
 }
-.product-image-holder{
-    
-}
 .product:hover{
     border: 1px solid rgb(68, 68, 68);
     transition: border .7s;
