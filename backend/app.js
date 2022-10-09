@@ -15,13 +15,13 @@ app.use('/images', express.static(path.join(__dirname, 'images')))
 
 app.get('/products', (req, res) => {
   Product.find()
+    .limit(20)
     .then((products)=>{
       res.json(products)
     })
 })
 
 mongoose.connect(process.env.MONGODB).then(()=>{
-  mongoose.connection.useDb('db_f503');
   app.listen(port, () => {
     console.log(`App listening on port ${port}`)
   })
