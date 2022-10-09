@@ -40,6 +40,7 @@ nav > input{
 }
 
 .icon-svg{
+    overflow: hidden;
     cursor: pointer;
     order: 2;
     margin: 0.4%;
