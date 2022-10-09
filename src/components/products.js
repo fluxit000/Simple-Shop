@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react"
 import './products.css'
 
+import { API_URL } from "../config"
+
 const Products = ()=>{
   const [products, setProducts] = useState([])
 
@@ -15,7 +17,7 @@ const Products = ()=>{
   }, [width]);
 
   useEffect(()=>{
-    fetch("http://192.168.0.100:8081/products")
+    fetch(`${API_URL}/products`)
       .then((response)=>response.json())
       .then((response)=>{
         setProducts(response)
@@ -30,7 +32,7 @@ const Products = ()=>{
   return(<div id="products">
     {products.map(product=>
       <div className="product" key={product._id}>
-        <div className="product-image-holder"><img className="product-image" src={"http://192.168.0.100:8081/images/"+product._id+".jpg"}/></div>
+        <div className="product-image-holder"><img className="product-image" src={`${API_URL}/images/${product._id}.jpg`}/></div>
         <div className="product-title">{product.title}</div>
         <div className="product-price">{product.price} zł</div>
       </div>

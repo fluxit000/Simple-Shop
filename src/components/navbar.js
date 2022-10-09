@@ -15,7 +15,6 @@ const Navbar = ()=>{
   return(<nav>
     <div className='shop-title'>
       {width < 860? "Shop":"Simple Shop"}
-          
     </div>
     <input autoComplete="off" type="text"/>
     <div className='icons'>
