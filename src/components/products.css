@@ -1,8 +1,10 @@
 #products{
-    width: 90%;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
+
+    padding: 10px;
+    padding-bottom: 0;
 }
 .product{
     padding: 0.6%;
@@ -26,16 +28,21 @@
     font-size: 15px;
 }
 .product-price{
-    font-size: 14px;
+    font-size: 12px;
     padding-top: 1%;
 }
-@media only screen and (max-width: 850px) {
-    .product-title{
-        font-size: 12px;
+@media only screen and (max-width: 1200px) {
+    .product-image{
+        width: 95%;
+    }
+    .product{
+        width: 14%;
     }
     .product-price{
-        font-size: 10px;
+        padding-top: 1%;
     }
+}
+@media only screen and (max-width: 850px) {
     .product{
         width: 25%;
         padding: 1.8%;
