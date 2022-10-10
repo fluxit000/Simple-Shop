@@ -2,13 +2,11 @@ const express = require('express')
 const path = require('path')
 const cors = require("cors");
 const mongoose = require("mongoose")
-require('dotenv').config()
 const bodyparser = require('body-parser')
-
 const Product = require('./models/product')
 
 const app = express()
-
+require('dotenv').config()
 
 const port = 8081
 
@@ -19,7 +17,7 @@ app.use(bodyparser.urlencoded({extended:false}))
 app.use(bodyparser.json())
 
 app.post('/products', (req, res) => {
-  Product.find({title:{$regex:req.body.title}})
+  Product.find({title:{$regex:req.body.title, '$options' : 'i'}})
     .limit(20)
     .then((products)=>{
       res.json(products)
