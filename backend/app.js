@@ -18,15 +18,7 @@ app.use('/images', express.static(path.join(__dirname, 'images')))
 app.use(bodyparser.urlencoded({extended:false}))
 app.use(bodyparser.json())
 
-app.get('/products', (req, res) => {
-  Product.find()
-    .limit(20)
-    .then((products)=>{
-      res.json(products)
-    })
-})
-
-app.post('/products/find', (req, res) => {
+app.post('/products', (req, res) => {
   Product.find({title:{$regex:req.body.title}})
     .limit(20)
     .then((products)=>{

@@ -3,10 +3,16 @@ import './products.css'
 
 import { API_URL } from "../config"
 
+import { useDispatch, useSelector } from "react-redux"
+import { productsFetch } from "../store"
+
 const Products = ()=>{
-  const [products, setProducts] = useState([])
 
   const [width, setWidth] = useState(window.innerWidth)
+
+  const products = useSelector(s=>s.products)
+
+  const dispatch = useDispatch()
 
   useEffect(() => {
     function handleResize() {
@@ -17,14 +23,7 @@ const Products = ()=>{
   }, [width]);
 
   useEffect(()=>{
-    fetch(`${API_URL}/products`)
-      .then((response)=>response.json())
-      .then((response)=>{
-        setProducts(response)
-      })
-      .catch((e)=>{
-         console.log(e)
-      })
+    dispatch(productsFetch())
   },[])
 
   //product.title.length > 20 && width < 680 ? product.title.slice(0,20)+"...":product.title
