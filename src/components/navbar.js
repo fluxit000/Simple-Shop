@@ -20,19 +20,21 @@ const Navbar = ()=>{
     return () => window.removeEventListener("resize", handleResize);
   }, [width]);
 
-  useEffect(()=>{
-    const timeOut = setTimeout(() => {
-      dispatch(productsFetch(inputValue))
-    }, 500);
-
-    return ()=>clearTimeout(timeOut)
-  },[inputValue])
+  
 
   return(<nav>
     <div className='shop-title'>
       {width < 860? "Shop":"Simple Shop"}
     </div>
-    <input onChange={(val)=>setInput(val.target.value)} autoComplete="off" type="text" />
+    <div className='search-container'>
+      <input className='search-input' 
+      placeholder="Search for products" 
+      onChange={(val)=>setInput(val.target.value)} 
+      onKeyUp={(e)=>e.key === "Enter"?dispatch(productsFetch(inputValue)):null}
+      autoComplete="off" 
+      type="text" />
+      <button className='icon-svg search-button' onClick={()=>dispatch(productsFetch(inputValue))}>search</button>
+    </div>
     <div className='icons'>
       <button className="nav-button">
         REGISTER
@@ -40,7 +42,7 @@ const Navbar = ()=>{
       <button className="nav-button">
         LOGIN
       </button>
-      <span className="icon-svg">
+      <span className="icon-svg shopping-cart">
         shopping_cart
       </span>
     </div>

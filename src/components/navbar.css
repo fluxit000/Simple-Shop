@@ -1,4 +1,5 @@
 nav{
+    overflow: hidden;
     padding: 0.8%;
     display: flex;
     border-bottom: solid 1px rgb(68, 68, 68);
@@ -10,8 +11,14 @@ nav{
     font-size: 30px;
 }
 
-nav > input{
+.search-container{
     order: 0;
+    position: relative;
+    display: flex;
+    flex: auto;
+}
+
+.search-input{
     padding-left: 1.3%;
     padding-right: 1.3%;
     color: black;
@@ -20,8 +27,25 @@ nav > input{
     border: 2px solid rgb(68, 68, 68);
     border-radius: 20px;
     outline: none;
-    flex: auto;
+    width: 100%;
 }
+
+.search-button{
+    cursor: pointer;
+    position:absolute;
+    overflow: hidden;
+    order: 0;
+    font-size: 24px;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    top: 8%;
+    right: 5px;
+    padding: 5px;
+}
+
 
 .icons{
     display: flex;
@@ -40,16 +64,9 @@ nav > input{
 }
 
 .icon-svg{
-    overflow: hidden;
-    cursor: pointer;
-    order: 2;
-    margin: 0.4%;
     font-family: 'Material Symbols Outlined';
     font-weight: normal;
     font-style: normal;
-    font-size: 36px;  /* Preferred icon size */
-    height: 36px;
-    width: 36px;
     display: inline-block;
     line-height: 1;
     text-transform: none;
@@ -69,13 +86,21 @@ nav > input{
     /* Support for IE. */
     font-feature-settings: 'liga';
 }
-@media only screen and (max-width: 700px) {
+
+.shopping-cart{
+    overflow: hidden;
+    cursor: pointer;
+    order: 2;
+    margin: 0.4%;
+    font-size: 36px;  /* Preferred icon size */
+    height: 36px;
+    width: 36px;
+}
+
+@media only screen and (max-width: 694px) {
     nav{
         flex-wrap: wrap;
         justify-content: space-between;
-    }
-    nav > input{
-        margin: 0;
     }
     .icons{
         justify-content: right;
@@ -83,7 +108,8 @@ nav > input{
     .icon-svg{
         order: 1;
     }
-    nav > input{
+    .search-container{
         order: 2;
+        margin: 0;
     }
 }
