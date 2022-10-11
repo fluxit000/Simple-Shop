@@ -34,6 +34,7 @@ const Products = ()=>{
         <div className="product-image-holder"><img className="product-image" src={`${API_URL}/images/${product._id}.jpg`}/></div>
         <div className="product-title">{product.title}</div>
         <div className="product-price">{product.price} zł</div>
+        <div className="icon-svg add-product-button">add_shopping_cart</div>
       </div>
     )}
   </div>)
