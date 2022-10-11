@@ -3,7 +3,7 @@ import './navbar.css'
 
 import { useDispatch } from 'react-redux'
 
-import { productsFetch } from '../store'
+import { productsFetch } from '../store/slices/products'
 
 const Navbar = ()=>{
   const [width, setWidth] = useState(window.innerWidth)

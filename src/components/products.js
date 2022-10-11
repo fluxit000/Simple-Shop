@@ -4,7 +4,7 @@ import './products.css'
 import { API_URL } from "../config"
 
 import { useDispatch, useSelector } from "react-redux"
-import { productsFetch } from "../store"
+import { productsFetch } from '../store/slices/products'
 
 const Products = ()=>{
 
