@@ -73,6 +73,7 @@ nav{
     width: 36px;
 }
 
+
 @media only screen and (max-width: 694px) {
     nav{
         flex-wrap: wrap;

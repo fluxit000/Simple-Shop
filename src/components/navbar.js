@@ -5,6 +5,8 @@ import { useDispatch } from 'react-redux'
 
 import { productsFetch } from '../store/slices/products'
 
+import { Link } from 'react-router-dom'
+
 const Navbar = ()=>{
   const [width, setWidth] = useState(window.innerWidth)
 
@@ -23,9 +25,9 @@ const Navbar = ()=>{
   
 
   return(<nav>
-    <div className='shop-title'>
+    <Link to="/" className='shop-title'>
       {width < 860? "Shop":"Simple Shop"}
-    </div>
+    </Link>
     <div className='search-container'>
       <input className='search-input' 
       placeholder="Search for products" 
@@ -42,9 +44,9 @@ const Navbar = ()=>{
       <button className="nav-button">
         LOGIN
       </button>
-      <span className="icon-svg shopping-cart">
+      <Link to="card" className="icon-svg shopping-cart">
         shopping_cart
-      </span>
+      </Link>
     </div>
   </nav>)
 }
