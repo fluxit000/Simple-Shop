@@ -6,11 +6,13 @@ import { API_URL } from "../config"
 import { useDispatch, useSelector } from "react-redux"
 import { productsFetch } from '../store/slices/products'
 
+import { addToCard } from "../store/slices/shoppingCart"
+
 const Products = ()=>{
 
   const [width, setWidth] = useState(window.innerWidth)
 
-  const products = useSelector(s=>s.products)
+  const products = useSelector(s=>s.products.products)
 
   const dispatch = useDispatch()
 
@@ -34,7 +36,7 @@ const Products = ()=>{
         <div className="product-image-holder"><img className="product-image" src={`${API_URL}/images/${product._id}.jpg`}/></div>
         <div className="product-title">{product.title}</div>
         <div className="product-price">{product.price} zł</div>
-        <div className="icon-svg add-product-button">add_shopping_cart</div>
+        <div className="icon-svg add-product-button" onClick={()=>dispatch(addToCard(product._id))}>add_shopping_cart</div>
       </div>
     )}
   </div>)
