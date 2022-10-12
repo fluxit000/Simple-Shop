@@ -5,14 +5,20 @@ import { useDispatch } from 'react-redux'
 
 import { productsFetch } from '../store/slices/products'
 
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 const Navbar = ()=>{
   const [width, setWidth] = useState(window.innerWidth)
 
-  const [inputValue, setInput] = useState()
+  const [inputValue, setInput] = useState("")
 
   const dispatch = useDispatch()
+
+  const location = useLocation()
+
+  useEffect(()=>{
+    setInput("")
+  },[location])
 
   useEffect(() => {
     function handleResize() {
@@ -32,6 +38,7 @@ const Navbar = ()=>{
       <input className='search-input' 
       placeholder="Search for products" 
       onChange={(val)=>setInput(val.target.value)} 
+      value={inputValue}
       onKeyUp={(e)=>e.key === "Enter"?dispatch(productsFetch(inputValue)):null}
       autoComplete="off" 
       type="text" />
