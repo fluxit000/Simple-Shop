@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './components/navbar';
 import Products from './components/products';
+import ShoppingCart from './components/shoppingCart';
 
 import {Route, Routes} from 'react-router-dom'
 
@@ -11,7 +12,7 @@ function App() {
       <main>
         <Routes>
           <Route path='/' element={<Products/>}/>
-          <Route path='/card' element={<h1>d</h1>}/>
+          <Route path='/card' element={<ShoppingCart/>}/>
         </Routes>
       </main>
     </>
