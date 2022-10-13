@@ -14,6 +14,17 @@ export const shoppingCartSlice = createSlice({
         updateCardData(state, action){
             state.itemsInCard = action.payload.newCard
             state.totalPrice = action.payload.updatePrice
+        },
+        updateProductQuantity(state, action){
+            if(action.payload.operation == "decrement"){
+                state.itemsInCard[action.payload.index].quantity--
+            }
+            else if(action.payload.operation == "increment"){
+                state.itemsInCard[action.payload.index].quantity++
+            }
+            else if(action.payload.operation == "remove"){
+                state.itemsInCard.splice(action.payload.index, 1)
+            }
         }
     }
 })

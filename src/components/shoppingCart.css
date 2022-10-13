@@ -33,6 +33,7 @@
 }
 
 .crad-quantity-buttons{
+    cursor: pointer;
     padding: 3% 8%;
     font-size: 18px;
     background-color: #4CAF50;
