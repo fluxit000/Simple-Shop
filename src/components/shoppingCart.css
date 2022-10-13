@@ -29,7 +29,9 @@
 }
 
 .crad-quantity{
-    padding: 5%;
+    width: 15%;
+    text-align: center;
+    
 }
 
 .crad-quantity-buttons{
@@ -47,8 +49,9 @@
     width: 65%;
 }
 .card-holder-right{
-    justify-content: space-between;
+    justify-content:right;
     margin-left: 3%;
+    width: 20%;
 }
 @media only screen and (max-width: 1200px) {
     .cards{
