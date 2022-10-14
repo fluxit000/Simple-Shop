@@ -24,7 +24,7 @@
 }
 
 .card{
-    margin-top: 2%;
+    margin: 2%;
     padding: 2%;
     display: flex;
     justify-content: space-between;

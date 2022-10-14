@@ -11,12 +11,12 @@ const ShoppingCart = ()=>{
 
     const dispatch = useDispatch()
 
-    const onChangeQuantity = (index, operation)=>{
+    const onChangeQuantity = (index, operation, _id)=>{
         if(itemsInCard[index].quantity <= 1 && operation == "decrement"){
-            dispatch(shoppingCartAction.updateProductQuantity({index, operation: "remove"}))
+            dispatch(shoppingCartAction.updateProductQuantity({index, operation: "remove", _id}))
         }
         else{
-            dispatch(shoppingCartAction.updateProductQuantity({index, operation: operation}))
+            dispatch(shoppingCartAction.updateProductQuantity({index, operation: operation, _id}))
         }
     }
 
@@ -35,12 +35,12 @@ const ShoppingCart = ()=>{
                 <div className="card-holder-right">
                     <div className="crad-price">{element.price} zł</div>
                     <button className="crad-quantity-buttons" 
-                    onClick={()=>{onChangeQuantity(i, "decrement")}}>
+                    onClick={()=>{onChangeQuantity(i, "decrement", element._id)}}>
                         -
                     </button>
                     <div className="crad-quantity">{element.quantity}</div>
                     <button className="crad-quantity-buttons"
-                    onClick={()=>{onChangeQuantity(i, "increment")}}>
+                    onClick={()=>{onChangeQuantity(i, "increment", element._id)}}>
                         +
                     </button>
                 </div>
