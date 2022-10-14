@@ -4,7 +4,7 @@ import Products from './components/products';
 import ShoppingCart from './components/shoppingCart';
 
 import {Route, Routes} from 'react-router-dom'
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 import { useSelector, useDispatch } from 'react-redux';
 import { shoppingCartAction } from './store/slices/shoppingCart';
@@ -17,18 +17,23 @@ function App() {
   const {totalPrice, itemsInCard} = useSelector(value=>value.shoppingCart)
 
   const dispatch = useDispatch()
+  const [firstEnter, setFirstEnter] = useState(true)
 
   useEffect(()=>{
-    if(totalPrice !== 0){
+    if(!firstEnter){
       localStorage.setItem("ShoppingCart", JSON.stringify({itemsInCard, totalPrice}));
     }
+    else{
+      setFirstEnter(false)
+    }
+    
   },[itemsInCard, totalPrice])
 
 
   useEffect(()=>{
     console.log(localStorage.getItem("ShoppingCart"))
     const shoppingCartData = JSON.parse(localStorage.getItem("ShoppingCart"))
-    if(shoppingCartData.totalPrice !== 0){
+    if(shoppingCartData){
       dispatch(shoppingCartAction.updateCardData({newCard: shoppingCartData.itemsInCard, updatePrice: shoppingCartData.totalPrice}))
     }
   },[])
