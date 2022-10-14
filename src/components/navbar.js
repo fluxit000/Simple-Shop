@@ -36,7 +36,7 @@ const Navbar = ()=>{
     </Link>
     <div className='search-container'>
       <input className='search-input' 
-      placeholder="Search for products" 
+      placeholder="Szukaj produktu" 
       onChange={(val)=>setInput(val.target.value)} 
       value={inputValue}
       onKeyUp={(e)=>e.key === "Enter"?dispatch(productsFetch(inputValue)):null}
@@ -46,10 +46,7 @@ const Navbar = ()=>{
     </div>
     <div className='icons'>
       <button className="nav-button">
-        REGISTER
-      </button>
-      <button className="nav-button">
-        LOGIN
+        Zaloguj się
       </button>
       <Link to="card" className="icon-svg shopping-cart">
         shopping_cart
