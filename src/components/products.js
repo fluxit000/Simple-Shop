@@ -4,9 +4,10 @@ import './products.css'
 import { API_URL } from "../config"
 
 import { useDispatch, useSelector } from "react-redux"
-import { productsFetch } from '../store/slices/products'
 
-import { addToCard } from "../store/slices/shoppingCart"
+import { productsFetch } from '../store/slices/products'
+import { addToCard, shoppingCartAction } from "../store/slices/shoppingCart"
+
 
 const Products = ()=>{
 
@@ -27,6 +28,7 @@ const Products = ()=>{
   useEffect(()=>{
     dispatch(productsFetch())
   },[])
+
 
   //product.title.length > 20 && width < 680 ? product.title.slice(0,20)+"...":product.title
 
