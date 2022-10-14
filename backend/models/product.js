@@ -15,15 +15,7 @@ const attribute = new Schema({
 
 
 const product = new Schema({
-    id:{
-        type: Number,
-        required: true
-    },
     title:{
-        type: String,
-        required: true
-    },
-    imageUrl:{
         type: String,
         required: true
     },
