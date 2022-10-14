@@ -25,25 +25,30 @@ const ShoppingCart = ()=>{
         Twój koszyk jest pusty
         <Link className="card-return-home" to="/">Przejdź do strony głównej</Link>
     </div>}
-    {itemsInCard.length !== 0 && <div className="cards">
-        {itemsInCard.map((element,i)=><div className="card" key={element._id}>
-            <div className="card-holder-left">
-                <img className="crad-image" src={`${API_URL}/images/${element._id}.jpg`}/>
-                <div className="crad-title">{element.title}</div>
-            </div>
-            <div className="card-holder-right">
-                <div className="crad-price">{element.price} zł</div>
-                <button className="crad-quantity-buttons" 
-                onClick={()=>{onChangeQuantity(i, "decrement")}}>
-                    -
-                </button>
-                <div className="crad-quantity">{element.quantity}</div>
-                <button className="crad-quantity-buttons"
-                onClick={()=>{onChangeQuantity(i, "increment")}}>
-                    +
-                </button>
-            </div>
-        </div>)}
+    {itemsInCard.length !== 0 && <div className="card-container">
+        <div className="cards">
+            {itemsInCard.map((element,i)=><div className="card" key={element._id}>
+                <div className="card-holder-left">
+                    <img className="crad-image" src={`${API_URL}/images/${element._id}.jpg`}/>
+                    <div className="crad-title">{element.title}</div>
+                </div>
+                <div className="card-holder-right">
+                    <div className="crad-price">{element.price} zł</div>
+                    <button className="crad-quantity-buttons" 
+                    onClick={()=>{onChangeQuantity(i, "decrement")}}>
+                        -
+                    </button>
+                    <div className="crad-quantity">{element.quantity}</div>
+                    <button className="crad-quantity-buttons"
+                    onClick={()=>{onChangeQuantity(i, "increment")}}>
+                        +
+                    </button>
+                </div>
+            </div>)}
+        </div>
+        <div className="card-sum">
+        Łączna kwota <span>{totalPrice.toLocaleString()} zł</span>
+        </div>
     </div>}
     </>)
 }
