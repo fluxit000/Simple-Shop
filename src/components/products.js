@@ -15,10 +15,10 @@ const Products = ()=>{
   const [width, setWidth] = useState(window.innerWidth)
 
   const products = useSelector(s=>s.products.products)
+  const isLoading = useSelector(s=>s.products.isLoading)
+  const hasError = useSelector(s=>s.products.hasError)
 
   const dispatch = useDispatch()
-
-  const isLoading = useSelector(s=>s.products.isLoading)
 
   useEffect(() => {
     function handleResize() {
@@ -39,7 +39,10 @@ const Products = ()=>{
     <div className="loading-spinner">
     </div>
   </div>}
-  {products.length === 0 && <div className="products-is-empty">
+  {hasError && <div className="products-is-empty">
+    Bląd połaczenia z serwer spróbuj ponownie
+  </div>}
+  {products.length === 0 && !hasError && <div className="products-is-empty">
     Brak produktów o takiej nazwie
   </div>}
   {!isLoading && products.length !== 0 && <>

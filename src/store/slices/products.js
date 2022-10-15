@@ -6,6 +6,7 @@ const initialState = {
     lastPage: -1,
     currentSearchValue: "",
     isLoading: false,
+    hasError: false,
     products: []
 }
 
@@ -28,6 +29,9 @@ export const productsSlice = createSlice({
         },
         setCurrentSearchValue(state, action){
             state.currentSearchValue = action.payload
+        },
+        setHasError(state, action){
+            state.hasError = action.payload
         }
     }
 })
@@ -44,7 +48,7 @@ export const productsFetch = (inputValue, page, fromPageChnage = false)=>{
         }
         const fetchRequest = async ()=>{
             dispatch(productsActions.setIsLoading(true))
-            fetch(`${API_URL}/products`,{
+            return fetch(`${API_URL}/products`,{
                 method: 'POST',
                 body: JSON.stringify({
                     title: searchValue,
@@ -54,8 +58,15 @@ export const productsFetch = (inputValue, page, fromPageChnage = false)=>{
                     'Content-Type': 'application/json'
                 }
             })
-            .then((response)=>response.json())
             .then((response)=>{
+                if(!response.ok){
+                    throw new Error("Backend error")
+                }
+                return response.json()
+            })
+            .then((response)=>{
+                dispatch(productsActions.setHasError(false)) 
+                dispatch(productsActions.setIsLoading(false))
                 if(page === 1){
                     dispatch(productsActions.initPage(response.lastPage))
                 }
@@ -63,13 +74,17 @@ export const productsFetch = (inputValue, page, fromPageChnage = false)=>{
                     dispatch(productsActions.setCurrentPage(page))
                 }
                 dispatch(productsActions.setProducts(response.items))
-                dispatch(productsActions.setIsLoading(false))
-            })
-            .catch((e)=>{
-                console.log(e)
             })
         }
-        await fetchRequest()
+
+        try{
+            await fetchRequest()
+        }
+        catch(error){
+            console.error(error)
+            dispatch(productsActions.setIsLoading(false))
+            dispatch(productsActions.setHasError(true)) 
+        }
     }
 }
 
