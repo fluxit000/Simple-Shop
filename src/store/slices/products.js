@@ -2,8 +2,11 @@ import { API_URL } from "../../config";
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
+    currentPage: -1,
+    lastPage: -1,
+    currentSearchValue: "",
     isLoading: false,
-    products:[]
+    products: []
 }
 
 export const productsSlice = createSlice({
@@ -15,18 +18,37 @@ export const productsSlice = createSlice({
         },
         setIsLoading(state, action){
             state.isLoading = action.payload
+        },
+        initPage(state, action){
+            state.currentPage = 1
+            state.lastPage = action.payload
+        },
+        setCurrentPage(state, action){
+            state.currentPage = action.payload
+        },
+        setCurrentSearchValue(state, action){
+            state.currentSearchValue = action.payload
         }
     }
 })
 
-export const productsFetch = (inputValue)=>{
-    return async (dispatch)=>{
+export const productsFetch = (inputValue, page, fromPageChnage = false)=>{
+    return async (dispatch, getState)=>{
+        let searchValue
+        if(fromPageChnage){
+            searchValue = getState().products.currentSearchValue
+        }
+        else{
+            searchValue = inputValue
+            dispatch(productsActions.setCurrentSearchValue(inputValue))
+        }
         const fetchRequest = async ()=>{
             dispatch(productsActions.setIsLoading(true))
             fetch(`${API_URL}/products`,{
                 method: 'POST',
                 body: JSON.stringify({
-                    title: !inputValue? "":inputValue
+                    title: searchValue,
+                    page: page
                 }),
                 headers: {
                     'Content-Type': 'application/json'
@@ -34,7 +56,13 @@ export const productsFetch = (inputValue)=>{
             })
             .then((response)=>response.json())
             .then((response)=>{
-                dispatch(productsActions.setProducts(response))
+                if(page === 1){
+                    dispatch(productsActions.initPage(response.lastPage))
+                }
+                else{
+                    dispatch(productsActions.setCurrentPage(page))
+                }
+                dispatch(productsActions.setProducts(response.items))
                 dispatch(productsActions.setIsLoading(false))
             })
             .catch((e)=>{

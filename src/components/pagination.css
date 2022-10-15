@@ -1,0 +1,23 @@
+.pages{
+    display: flex;
+    justify-content: center;
+}
+.page-number{
+    cursor: pointer;
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid rgb(100, 100, 100);
+    color: rgb(37, 37, 37);
+    width: 40px;
+    height: 40px;
+}
+.page-number:hover{
+    border: 1px solid black;
+}
+.page-active{
+    border: 1px solid black;
+    color: rgb(37, 37, 37);
+}

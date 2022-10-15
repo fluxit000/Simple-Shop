@@ -7,6 +7,7 @@ import { useDispatch, useSelector } from "react-redux"
 
 import { productsFetch } from '../store/slices/products'
 import { addToCard } from "../store/slices/shoppingCart"
+import Pagination from "./pagination"
 
 
 const Products = ()=>{
@@ -28,7 +29,7 @@ const Products = ()=>{
   }, [width]);
 
   useEffect(()=>{
-    dispatch(productsFetch())
+    dispatch(productsFetch("", 1))
   },[])
 
   //product.title.length > 20 && width < 680 ? product.title.slice(0,20)+"...":product.title
@@ -41,16 +42,20 @@ const Products = ()=>{
   {products.length === 0 && <div className="products-is-empty">
     Brak produktów o takiej nazwie
   </div>}
-  {!isLoading && <div id="products">
-  {products.map(product=>
-    <div className="product" key={product._id}>
-      <div className="product-image-holder"><img className="product-image" src={`${API_URL}/images/${product._id}.jpg`}/></div>
-      <div className="product-title">{product.title}</div>
-      <div className="product-price">{product.price} zł</div>
-      <div className="icon-svg add-product-button" onClick={()=>dispatch(addToCard(product._id))}>add_shopping_cart</div>
+  {!isLoading && products.length !== 0 && <>
+    <div id="products">
+      {products.map(product=>
+        <div className="product" key={product._id}>
+          <div className="product-image-holder"><img className="product-image" src={`${API_URL}/images/${product._id}.jpg`}/></div>
+          <div className="product-title">{product.title}</div>
+          <div className="product-price">{product.price} zł</div>
+          <div className="icon-svg add-product-button" onClick={()=>dispatch(addToCard(product._id))}>add_shopping_cart</div>
+        </div>
+      )}
     </div>
-  )}
-</div>}</>)
+    <Pagination/>
+  </>}
+  </>)
 }
 
 export default Products

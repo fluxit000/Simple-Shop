@@ -39,7 +39,7 @@ const Navbar = ()=>{
       placeholder="Szukaj produktu" 
       onChange={(val)=>setInput(val.target.value)} 
       value={inputValue}
-      onKeyUp={(e)=>e.key === "Enter"?dispatch(productsFetch(inputValue)):null}
+      onKeyUp={(e)=>e.key === "Enter"?dispatch(productsFetch(inputValue,1)):null}
       autoComplete="off" 
       type="text" />
       <button className='icon-svg search-button' onClick={()=>dispatch(productsFetch(inputValue))}>search</button>
