@@ -23,11 +23,13 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm ci
-    - run: npm run build 
-    - run: cd backend
-    - run: npm ci
-    - run: pm2 stop 0
-    - run: pm2 start 0
-    - run: pm2 save
+    - run: 
+      npm ci
+      npm run build 
+    - run: 
+      cd backend
+      npm ci
+      pm2 stop 0
+      pm2 start 0
+      pm2 save
     
