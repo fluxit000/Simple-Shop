@@ -42,7 +42,7 @@ const Navbar = ()=>{
       onKeyUp={(e)=>e.key === "Enter"?dispatch(productsFetch(inputValue,1)):null}
       autoComplete="off" 
       type="text" />
-      <button className='icon-svg search-button' onClick={()=>dispatch(productsFetch(inputValue))}>search</button>
+      <button className='icon-svg search-button' onClick={()=>dispatch(productsFetch(inputValue,1))}>search</button>
     </div>
     <div className='icons'>
       <button className="nav-button">
