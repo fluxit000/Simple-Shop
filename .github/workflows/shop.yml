@@ -26,7 +26,7 @@ jobs:
     - run: 
         npm ci
         npm run build
-        cp ../.env backend/ 
+        cp ~/.env backend/
     - run: |
         cd backend
         npm ci
