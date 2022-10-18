@@ -29,7 +29,7 @@ const ShoppingCart = ()=>{
         <div className="cards">
             {itemsInCard.map((element,i)=><div className="card" key={element._id}>
                 <div className="card-holder-left">
-                    <img className="crad-image" src={`${API_URL}/images/${element._id}.jpg`}/>
+                    <img className="crad-image" src={`${API_URL}/images/${element._id}/1.jpg`}/>
                     <div className="crad-title">{element.title}</div>
                 </div>
                 <div className="card-holder-right">
