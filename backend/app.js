@@ -3,7 +3,8 @@ const path = require('path')
 const cors = require("cors");
 const mongoose = require("mongoose")
 const bodyparser = require('body-parser')
-const Product = require('./models/product')
+const Product = require('./models/product');
+const { ObjectId } = require('mongodb');
 
 const app = express()
 require('dotenv').config()
@@ -20,7 +21,6 @@ app.use(bodyparser.json())
 app.post('/products', (req, res) => {
   const page = req.body.page;
   let totalItems;
-
 
   Product.find({title:{$regex:req.body.title, '$options' : 'i'}}).count().then((size)=>{
     totalItems = size
@@ -39,6 +39,13 @@ app.post('/products', (req, res) => {
       "status":"DB_ERROR"
     })
   })
+})
+
+app.get('/product/:id', (req, res) => {
+  Product.find({_id:ObjectId(req.params.id)})
+    .then((products)=>{
+      res.json(products[0])
+    })
 })
 
 mongoose.connect(process.env.MONGODB).then(()=>{
