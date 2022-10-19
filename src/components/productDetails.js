@@ -5,7 +5,8 @@ import './productDetails.css'
 
 const ProductDetails = ()=>{
     const productId = useParams().id
-    const [product, setProduct] = useState({})
+    const [product, setProduct] = useState(null)
+    const [imageIndex, setImageIndex] = useState(1)
 
     useEffect(()=>{
         fetch(`${API_URL}/product/${productId}`,{
@@ -22,12 +23,12 @@ const ProductDetails = ()=>{
 
 
     return(<div id="details-container">
-        <div id="details-image-container">
-            <img id="details-image" src={`${API_URL}/images/${product._id}/1-1.jpg`}/>
+        {product && <><div id="details-image-container">
+            <img id="details-image" src={`${API_URL}/images/${product.item._id}/1-${imageIndex}.jpg`}/>
         </div>
         <div>
-            <div id="details-name">{product.title}</div>
-        </div>
+            <div id="details-name">{product.item.title}</div>
+        </div></>}
             
     </div>)
 }

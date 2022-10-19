@@ -4,6 +4,7 @@ const cors = require("cors");
 const mongoose = require("mongoose")
 const bodyparser = require('body-parser')
 const Product = require('./models/product');
+const fs = require('fs')
 const { ObjectId } = require('mongodb');
 
 const app = express()
@@ -44,7 +45,10 @@ app.post('/products', (req, res) => {
 app.get('/product/:id', (req, res) => {
   Product.find({_id:ObjectId(req.params.id)})
     .then((products)=>{
-      res.json(products[0])
+      const product = products[0]
+      fs.readdir('./images/'+product._id, (err, files) => {
+        res.json({item:product, lastImage:files.length-1})
+      })
     })
 })
 
