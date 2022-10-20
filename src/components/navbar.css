@@ -46,12 +46,10 @@ nav{
     padding: 5px;
 }
 
-
 .icons{
     margin-left: .5%;
     display: flex;
     justify-content:right;
-    
 }
 
 .icons > *{
@@ -81,13 +79,12 @@ nav{
         font-size: 19px;
     }
 }
-@media only screen and (max-width: 694px) {
+@media only screen and (max-width: 622px) {
     nav{
         flex-wrap: wrap;
         justify-content: space-between;
     }
     .icons{
-        width: 50%;
         justify-content: right;
     }
     .icon-svg{
