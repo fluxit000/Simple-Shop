@@ -8,7 +8,7 @@ import { useDispatch, useSelector } from "react-redux"
 import { productsFetch } from '../store/slices/products'
 import { addToCard } from "../store/slices/shoppingCart"
 import Pagination from "./pagination"
-import { Link } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 
 
 const Products = ()=>{
@@ -20,6 +20,7 @@ const Products = ()=>{
   const hasError = useSelector(s=>s.products.hasError)
 
   const dispatch = useDispatch()
+  const navigate = useNavigate()
 
   useEffect(() => {
     function handleResize() {
@@ -35,6 +36,13 @@ const Products = ()=>{
 
   //product.title.length > 20 && width < 680 ? product.title.slice(0,20)+"...":product.title
 
+  const onClickProduct = (e,id)=>{
+    console.log()
+    if(!e.target.classList.value.includes("add-product-button")){
+      navigate("/product/"+id)
+    }
+  }
+
   return(<>
   {isLoading && <div className="spinner-container">
     <div className="loading-spinner">
@@ -49,12 +57,12 @@ const Products = ()=>{
   {!isLoading && products.length !== 0 && <>
     <div id="products">
       {products.map(product=>
-        <Link to={"/product/"+product._id} className="product" key={product._id}>
+        <div onClick={(e)=>onClickProduct(e, product._id)} className="product" key={product._id}>
           <div className="product-image-holder"><img className="product-image" src={`${API_URL}/images/${product._id}/1.jpg`}/></div>
           <div className="product-title">{product.title}</div>
           <div className="product-price">{product.price} zł</div>
-          <div className="icon-svg add-product-button" onClick={()=>dispatch(addToCard(product._id))}>add_shopping_cart</div>
-        </Link>
+          <div className="icon-svg add-product-button" onClick={(e)=>dispatch(addToCard(product._id))}>add_shopping_cart</div>
+        </div>
       )}
     </div>
     <Pagination/>
