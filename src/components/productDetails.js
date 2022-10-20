@@ -28,7 +28,7 @@ const ProductDetails = ()=>{
     },[])
 
 
-    return(<div id="details-container">
+    return(<article id="details-container">
         {product && <><div id="details-image-container">
             <img id="details-image" src={`${API_URL}/images/${product.item._id}/1-${imageIndex}.jpg`}/>
         </div>
@@ -43,7 +43,7 @@ const ProductDetails = ()=>{
         </div>
         </>}
             
-    </div>)
+    </article>)
 }
 
 export default ProductDetails

@@ -27,7 +27,7 @@ const ShoppingCart = ()=>{
     </div>}
     {itemsInCard.length !== 0 && <div className="card-container">
         <div className="cards">
-            {itemsInCard.map((element,i)=><div className="card" key={element._id}>
+            {itemsInCard.map((element,i)=><article className="card" key={element._id}>
                 <div className="card-holder-left">
                     <img className="crad-image" src={`${API_URL}/images/${element._id}/1.jpg`}/>
                     <div className="crad-title">{element.title}</div>
@@ -44,11 +44,11 @@ const ShoppingCart = ()=>{
                         +
                     </button>
                 </div>
-            </div>)}
+            </article>)}
         </div>
-        <div className="card-sum">
+        <section className="card-sum">
         Łączna kwota <span>{totalPrice.toLocaleString()} zł</span>
-        </div>
+        </section>
     </div>}
     </>)
 }

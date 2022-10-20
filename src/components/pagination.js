@@ -20,7 +20,7 @@ const Pagination = ()=>{
         return Array.from({length: length}, (el, i) => start + i)
     }
 
-    return (<div className='pages'>
+    return (<section className='pages'>
         {getPagingRange(currentPage,{min:1, total: lastPage, length:7}).map(i=><div 
         key={i} 
         onClick={()=>dispatch(productsFetch("", i, true))} 
@@ -28,7 +28,7 @@ const Pagination = ()=>{
         >
             {i}
         </div>)}
-    </div>)
+    </section>)
 }
 
 export default Pagination

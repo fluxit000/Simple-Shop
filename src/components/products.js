@@ -44,25 +44,29 @@ const Products = ()=>{
   }
 
   return(<>
+
   {isLoading && <div className="spinner-container">
     <div className="loading-spinner">
     </div>
   </div>}
+
   {hasError && <div className="products-is-empty">
     Bląd połaczenia z serwer spróbuj ponownie
   </div>}
+
   {products.length === 0 && !hasError && <div className="products-is-empty">
     Brak produktów o takiej nazwie
   </div>}
+
   {!isLoading && products.length !== 0 && <>
     <div id="products">
       {products.map(product=>
-        <div onClick={(e)=>onClickProduct(e, product._id)} className="product" key={product._id}>
+        <article onClick={(e)=>onClickProduct(e, product._id)} className="product" key={product._id}>
           <div className="product-image-holder"><img className="product-image" src={`${API_URL}/images/${product._id}/1.jpg`}/></div>
           <div className="product-title">{product.title}</div>
           <div className="product-price">{product.price} zł</div>
           <div className="icon-svg add-product-button" onClick={(e)=>dispatch(addToCard(product._id))}>add_shopping_cart</div>
-        </div>
+        </article>
       )}
     </div>
     <Pagination/>
