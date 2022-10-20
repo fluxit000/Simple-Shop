@@ -32,7 +32,8 @@ const Navbar = ()=>{
 
   return(<nav>
     <Link to="/" className='shop-title'>
-      {width < 860? "Shop":"Simple Shop"}
+      {/* {width < 860? "Shop":"Simple Shop"} */}
+      Simple Shop
     </Link>
     <div className='search-container'>
       <input className='search-input' 
@@ -45,9 +46,9 @@ const Navbar = ()=>{
       <button className='icon-svg search-button' onClick={()=>dispatch(productsFetch(inputValue,1))}>search</button>
     </div>
     <div className='icons'>
-      <button className="nav-button">
+      {/* <button className="nav-button">
         Zaloguj się
-      </button>
+      </button> */}
       <Link to="card" className="icon-svg shopping-cart">
         shopping_cart
       </Link>
