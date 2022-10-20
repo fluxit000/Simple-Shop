@@ -81,7 +81,7 @@ export const productsFetch = (inputValue, page, fromPageChnage = false)=>{
             await fetchRequest()
         }
         catch(error){
-            console.error(error)
+            dispatch(productsActions.setProducts([]))
             dispatch(productsActions.setIsLoading(false))
             dispatch(productsActions.setHasError(true)) 
         }
