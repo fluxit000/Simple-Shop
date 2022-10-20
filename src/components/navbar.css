@@ -48,6 +48,7 @@ nav{
 
 
 .icons{
+    margin-left: .5%;
     display: flex;
     justify-content:right;
     
