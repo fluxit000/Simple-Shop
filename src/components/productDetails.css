@@ -15,6 +15,34 @@
 #details-name{
     font-size: 2em;
 }
+#details-order-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#details-order{
+    font-size: 1.7em;
+    margin-top: 3%;
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 2.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#details-add-card{
+    width: 80%;
+    border: none;
+    border-radius: 25px;
+    margin-top: 3%;
+    padding: 3% 8%;
+    cursor: pointer;
+    font-size: 17px;
+    color: white;
+    background-color: #4CAF50;
+}
+
 
 @media only screen and (max-width: 900px) {
     #details-image-container{
@@ -22,6 +50,13 @@
     }
 }
 @media only screen and (max-width: 700px) {
+    #details-order{
+        width: 60%;
+        font-size: 1.3em;
+    }
+    #details-add-card{
+        font-size: 13px;
+    }
     #details-image-container{
         height: 160px;
     }

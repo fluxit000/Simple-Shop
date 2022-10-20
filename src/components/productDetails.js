@@ -1,12 +1,18 @@
 import { useState, useEffect } from "react"
 import { useParams } from "react-router-dom"
 import { API_URL } from "../config"
+
 import './productDetails.css'
+
+import { useDispatch } from "react-redux"
+import { addToCard } from "../store/slices/shoppingCart"
 
 const ProductDetails = ()=>{
     const productId = useParams().id
     const [product, setProduct] = useState(null)
     const [imageIndex, setImageIndex] = useState(1)
+
+    const dispatch = useDispatch()
 
     useEffect(()=>{
         fetch(`${API_URL}/product/${productId}`,{
@@ -28,7 +34,14 @@ const ProductDetails = ()=>{
         </div>
         <div>
             <div id="details-name">{product.item.title}</div>
-        </div></>}
+            <div id="details-order-container">
+                <div id="details-order">
+                    {product.item.price} zł
+                    <button id="details-add-card" onClick={()=>dispatch(addToCard(product.item._id))}>Dodaj do koszyka</button>
+                </div>
+            </div>
+        </div>
+        </>}
             
     </div>)
 }
