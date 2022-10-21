@@ -17,6 +17,9 @@ const Navbar = ()=>{
   const location = useLocation()
 
   useEffect(()=>{
+    if(location.pathname == "/"){
+      dispatch(productsFetch("",1))
+    }
     setInput("")
   },[location])
 
