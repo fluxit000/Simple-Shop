@@ -32,7 +32,7 @@
     border-radius: 20px;
 }
 
-.card > div{
+.card-holder-left, .card-holder-right{
     display: flex;
     align-items: center;
     flex: auto;

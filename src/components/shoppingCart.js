@@ -28,10 +28,10 @@ const ShoppingCart = ()=>{
     {itemsInCard.length !== 0 && <div className="card-container">
         <div className="cards">
             {itemsInCard.map((element,i)=><article className="card" key={element._id}>
-                <div className="card-holder-left">
+                <Link className="card-holder-left" to={"/product/"+element._id}>
                     <img className="crad-image" src={`${API_URL}/images/${element._id}/1.jpg`}/>
                     <div className="crad-title">{element.title}</div>
-                </div>
+                </Link>
                 <div className="card-holder-right">
                     <div className="crad-price">{element.price} zł</div>
                     <button className="crad-quantity-buttons" 
