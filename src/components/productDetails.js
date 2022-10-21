@@ -27,10 +27,32 @@ const ProductDetails = ()=>{
         })
     },[])
 
+    const onClickChange = direction=>{
+        if(direction == "left"){
+            if(imageIndex == 1){
+                setImageIndex(product.lastImage)
+            }
+            else{
+                setImageIndex(val=>val-1)
+            }
+        }
+        else {
+            if(imageIndex == product.lastImage){
+                setImageIndex(1)
+            }
+            else{
+                setImageIndex(val=>val+1)
+            }
+        }
+    }
+
 
     return(<article id="details-container">
-        {product && <><div id="details-image-container">
+        {product && <>
+        <div id="details-image-container">
+            <button className="details-change-img img-left" onClick={()=>onClickChange("left")}></button>
             <img id="details-image" src={`${API_URL}/images/${product.item._id}/1-${imageIndex}.jpg`}/>
+            <button className="details-change-img img-right" onClick={()=>onClickChange("right")}></button>
         </div>
         <div>
             <div id="details-name">{product.item.title}</div>

@@ -10,6 +10,7 @@
     display: flex;
     justify-content: center;
     margin-right: 1%;
+    position: relative;
 }
 
 #details-name{
@@ -42,6 +43,31 @@
     color: white;
     background-color: #4CAF50;
 }
+.details-change-img{
+    background-color: transparent;
+    color: rgb(122, 122, 122);
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    border: none;
+    font-size: 3em;
+    cursor: pointer;
+}
+.img-left{
+    left: 0;
+}
+.img-right{
+    right: 0;
+}
+.img-left::before{
+    content: "<";
+}
+.img-right::before{
+    content: ">";
+}
+
 
 
 @media only screen and (max-width: 900px) {
