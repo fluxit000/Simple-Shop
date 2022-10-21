@@ -1,0 +1,4149 @@
+[{
+  "_id": {
+    "$oid": "6341f09f41d7efd5c30d8419"
+  },
+  "title": "Samsung Galaxy S21 FE 5G 128GB Dual SIM grafitowy (G990)",
+  "price": 3499,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "2340 x 1080 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE, 5G"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f09f41d7efd5c30d841b"
+  },
+  "title": "Samsung Galaxy A13 64GB Dual SIM niebieski (A137)",
+  "price": 849,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.6 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "64 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "5 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "2 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "4 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "5000 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f09f41d7efd5c30d8420"
+  },
+  "title": "Samsung Galaxy A33 5G 128GB Dual SIM biały (A336)",
+  "price": 1399,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "48 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "5 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "5000 mAh"
+    },
+    {
+      "name": "Kolor",
+      "value": "biały"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f09f41d7efd5c30d8421"
+  },
+  "title": "Samsung Galaxy A13 64GB Dual SIM czarny (A137)",
+  "price": 849,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.6 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "64 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "5 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "2 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "4 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "5000 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f09f41d7efd5c30d8424"
+  },
+  "title": "Samsung Galaxy S21 FE 5G 256GB Dual SIM grafitowy (G990)",
+  "price": 3849,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "256 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "2340 x 1080 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE, 5G"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f09f41d7efd5c30d8425"
+  },
+  "title": "Samsung Galaxy S22 5G 128GB Dual SIM zielony (S901)",
+  "price": 3699,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.1 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "10 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "8 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "3700 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f09f41d7efd5c30d8429"
+  },
+  "title": "Samsung Galaxy S21 FE 5G 128GB Dual SIM biały (G990)",
+  "price": 3499,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "2340 x 1080 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE, 5G"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f09f41d7efd5c30d842b"
+  },
+  "title": "Samsung Galaxy S21 FE 5G 128GB Dual SIM biały (G990)",
+  "price": 3499,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "2340 x 1080 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE, 5G"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0a641d7efd5c30d842d"
+  },
+  "title": "Samsung Galaxy S21 FE 5G 128GB Dual SIM grafitowy (G990)",
+  "price": 3499,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "2340 x 1080 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE, 5G"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0a641d7efd5c30d842f"
+  },
+  "title": "Samsung Galaxy A13 64GB Dual SIM niebieski (A137)",
+  "price": 849,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.6 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "64 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "5 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "2 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "4 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "5000 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0a641d7efd5c30d8434"
+  },
+  "title": "Samsung Galaxy A33 5G 128GB Dual SIM biały (A336)",
+  "price": 1399,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "48 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "5 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "5000 mAh"
+    },
+    {
+      "name": "Kolor",
+      "value": "biały"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0a641d7efd5c30d8435"
+  },
+  "title": "Samsung Galaxy A13 64GB Dual SIM czarny (A137)",
+  "price": 849,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.6 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "64 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "5 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "2 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "4 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "5000 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0a641d7efd5c30d8436"
+  },
+  "title": "Samsung Galaxy S21 FE 5G 128GB Dual SIM grafitowy (G990)",
+  "price": 3499,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "2340 x 1080 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE, 5G"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0a641d7efd5c30d8438"
+  },
+  "title": "Samsung Galaxy S21 FE 5G 256GB Dual SIM grafitowy (G990)",
+  "price": 3849,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "256 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "2340 x 1080 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE, 5G"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0a641d7efd5c30d8439"
+  },
+  "title": "Samsung Galaxy S22 5G 128GB Dual SIM zielony (S901)",
+  "price": 3699,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.1 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "10 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "8 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "3700 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0a641d7efd5c30d843b"
+  },
+  "title": "Samsung Galaxy S21 FE 5G 256GB Dual SIM biały (G990)",
+  "price": 3849,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "256 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "2340 x 1080 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "8 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE, 5G"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0a641d7efd5c30d843d"
+  },
+  "title": "Samsung Galaxy S21 FE 5G 128GB Dual SIM biały (G990)",
+  "price": 3499,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "2340 x 1080 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE, 5G"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0a641d7efd5c30d8446"
+  },
+  "title": "Samsung Galaxy S22+ 5G 128GB Dual SIM różowy (S906)",
+  "price": 4599,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.6 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "10 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "8 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "4500 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0a641d7efd5c30d8447"
+  },
+  "title": "Samsung Galaxy M13 64GB Dual SIM zielony (M135)",
+  "price": 869,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.6 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "64 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "1080 x 2408 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "5 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "2 Mpix"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0a641d7efd5c30d8449"
+  },
+  "title": "Samsung Galaxy A33 5G 128GB Dual SIM czarny (A336)",
+  "price": 1399,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "48 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "5 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "5000 mAh"
+    },
+    {
+      "name": "Kolor",
+      "value": "czarny"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0a641d7efd5c30d844c"
+  },
+  "title": "Samsung Galaxy S22 5G 128GB Dual SIM biały (S901)",
+  "price": 3699,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.1 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "10 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "8 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "3700 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0a641d7efd5c30d844d"
+  },
+  "title": "Samsung Galaxy A53 5G 128GB Dual SIM biały (A536)",
+  "price": 1699,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.5 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "64 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "5 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0a641d7efd5c30d844e"
+  },
+  "title": "Samsung Galaxy M13 64GB Dual SIM niebieski (M135)",
+  "price": 869,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.6 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "64 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "1080 x 2408 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "5 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "2 Mpix"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0ae41d7efd5c30d8455"
+  },
+  "title": "Samsung Galaxy S21 FE 5G 128GB Dual SIM grafitowy (G990)",
+  "price": 3499,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "2340 x 1080 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE, 5G"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0ae41d7efd5c30d8457"
+  },
+  "title": "Samsung Galaxy A13 64GB Dual SIM niebieski (A137)",
+  "price": 849,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.6 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "64 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "5 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "2 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "4 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "5000 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0ae41d7efd5c30d845c"
+  },
+  "title": "Samsung Galaxy A33 5G 128GB Dual SIM biały (A336)",
+  "price": 1399,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "48 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "5 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "5000 mAh"
+    },
+    {
+      "name": "Kolor",
+      "value": "biały"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0ae41d7efd5c30d845d"
+  },
+  "title": "Samsung Galaxy A13 64GB Dual SIM czarny (A137)",
+  "price": 849,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.6 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "64 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "5 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "2 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "4 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "5000 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0ae41d7efd5c30d845e"
+  },
+  "title": "Samsung Galaxy S21 FE 5G 128GB Dual SIM grafitowy (G990)",
+  "price": 3499,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "2340 x 1080 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE, 5G"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0ae41d7efd5c30d8460"
+  },
+  "title": "Samsung Galaxy S21 FE 5G 256GB Dual SIM grafitowy (G990)",
+  "price": 3849,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "256 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "2340 x 1080 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE, 5G"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0ae41d7efd5c30d8461"
+  },
+  "title": "Samsung Galaxy S22 5G 128GB Dual SIM zielony (S901)",
+  "price": 3699,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.1 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "10 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "8 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "3700 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0ae41d7efd5c30d8462"
+  },
+  "title": "Samsung Galaxy S22+ 5G 128GB Dual SIM biały (S906)",
+  "price": 4599,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.6 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "10 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "8 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "4500 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0ae41d7efd5c30d8463"
+  },
+  "title": "Samsung Galaxy S21 FE 5G 256GB Dual SIM biały (G990)",
+  "price": 3849,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "256 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "2340 x 1080 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "8 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE, 5G"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0ae41d7efd5c30d8465"
+  },
+  "title": "Samsung Galaxy S21 FE 5G 128GB Dual SIM biały (G990)",
+  "price": 3499,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "2340 x 1080 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE, 5G"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0ae41d7efd5c30d8467"
+  },
+  "title": "Samsung Galaxy S21 FE 5G 128GB Dual SIM biały (G990)",
+  "price": 3499,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "2340 x 1080 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE, 5G"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0ae41d7efd5c30d846e"
+  },
+  "title": "Samsung Galaxy S22+ 5G 128GB Dual SIM różowy (S906)",
+  "price": 4599,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.6 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "10 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "8 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "4500 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0ae41d7efd5c30d846f"
+  },
+  "title": "Samsung Galaxy M13 64GB Dual SIM zielony (M135)",
+  "price": 869,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.6 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "64 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "1080 x 2408 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "5 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "2 Mpix"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0ae41d7efd5c30d8471"
+  },
+  "title": "Samsung Galaxy A33 5G 128GB Dual SIM czarny (A336)",
+  "price": 1399,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "48 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "5 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "5000 mAh"
+    },
+    {
+      "name": "Kolor",
+      "value": "czarny"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0ae41d7efd5c30d8474"
+  },
+  "title": "Samsung Galaxy S22 5G 128GB Dual SIM biały (S901)",
+  "price": 3699,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.1 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "10 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "8 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "3700 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0ae41d7efd5c30d8475"
+  },
+  "title": "Samsung Galaxy A53 5G 128GB Dual SIM biały (A536)",
+  "price": 1699,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.5 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "64 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "5 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0ae41d7efd5c30d8476"
+  },
+  "title": "Samsung Galaxy M13 64GB Dual SIM niebieski (M135)",
+  "price": 869,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.6 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "64 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "1080 x 2408 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "5 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "2 Mpix"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0ae41d7efd5c30d8488"
+  },
+  "title": "Samsung Galaxy S22 5G 128GB Dual SIM różowy (S901)",
+  "price": 3699,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.1 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "10 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "8 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "3700 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0ae41d7efd5c30d8489"
+  },
+  "title": "Samsung Galaxy S22 5G 256GB Dual SIM czarny (S901)",
+  "price": 3899,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.1 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "256 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "10 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "8 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "3700 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0ae41d7efd5c30d848b"
+  },
+  "title": "Samsung Galaxy S22+ 5G 128GB Dual SIM zielony (S906)",
+  "price": 4599,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.6 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "10 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "8 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "4500 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0ae41d7efd5c30d848d"
+  },
+  "title": "Samsung Galaxy S22 5G 256GB Dual SIM zielony (S901)",
+  "price": 3899,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.1 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "256 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "10 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "8 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "3700 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0b641d7efd5c30d8491"
+  },
+  "title": "Samsung Galaxy S21 FE 5G 128GB Dual SIM grafitowy (G990)",
+  "price": 3499,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "2340 x 1080 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE, 5G"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0b641d7efd5c30d8493"
+  },
+  "title": "Samsung Galaxy A13 64GB Dual SIM niebieski (A137)",
+  "price": 849,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.6 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "64 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "5 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "2 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "4 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "5000 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0b641d7efd5c30d8498"
+  },
+  "title": "Samsung Galaxy A33 5G 128GB Dual SIM biały (A336)",
+  "price": 1399,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "48 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "5 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "5000 mAh"
+    },
+    {
+      "name": "Kolor",
+      "value": "biały"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0b641d7efd5c30d849a"
+  },
+  "title": "Samsung Galaxy S21 FE 5G 128GB Dual SIM grafitowy (G990)",
+  "price": 3499,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "2340 x 1080 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE, 5G"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0b641d7efd5c30d849c"
+  },
+  "title": "Samsung Galaxy S21 FE 5G 256GB Dual SIM grafitowy (G990)",
+  "price": 3849,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "256 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "2340 x 1080 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE, 5G"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0b641d7efd5c30d849d"
+  },
+  "title": "Samsung Galaxy S22 5G 128GB Dual SIM zielony (S901)",
+  "price": 3699,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.1 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "10 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "8 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "3700 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0b641d7efd5c30d849f"
+  },
+  "title": "Samsung Galaxy S21 FE 5G 256GB Dual SIM biały (G990)",
+  "price": 3849,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "256 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "2340 x 1080 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "8 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE, 5G"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0b641d7efd5c30d84a1"
+  },
+  "title": "Samsung Galaxy S21 FE 5G 128GB Dual SIM biały (G990)",
+  "price": 3499,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "2340 x 1080 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE, 5G"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0b641d7efd5c30d84a3"
+  },
+  "title": "Samsung Galaxy S21 FE 5G 128GB Dual SIM biały (G990)",
+  "price": 3499,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "2340 x 1080 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE, 5G"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0b641d7efd5c30d84a4"
+  },
+  "title": "Samsung Galaxy S21 FE 5G 128GB Dual SIM oliwkowy (G990)",
+  "price": 3499,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "2340 x 1080 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE, 5G"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0b641d7efd5c30d84aa"
+  },
+  "title": "Samsung Galaxy S22+ 5G 128GB Dual SIM różowy (S906)",
+  "price": 4599,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.6 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "10 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "8 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "4500 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0b641d7efd5c30d84ab"
+  },
+  "title": "Samsung Galaxy M13 64GB Dual SIM zielony (M135)",
+  "price": 869,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.6 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "64 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "1080 x 2408 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "5 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "2 Mpix"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0b641d7efd5c30d84ad"
+  },
+  "title": "Samsung Galaxy A33 5G 128GB Dual SIM czarny (A336)",
+  "price": 1399,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "48 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "5 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "5000 mAh"
+    },
+    {
+      "name": "Kolor",
+      "value": "czarny"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0b641d7efd5c30d84b0"
+  },
+  "title": "Samsung Galaxy S22 5G 128GB Dual SIM biały (S901)",
+  "price": 3699,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.1 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "10 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "8 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "3700 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0b641d7efd5c30d84b1"
+  },
+  "title": "Samsung Galaxy A53 5G 128GB Dual SIM biały (A536)",
+  "price": 1699,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.5 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "64 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "5 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0b641d7efd5c30d84b2"
+  },
+  "title": "Samsung Galaxy M13 64GB Dual SIM niebieski (M135)",
+  "price": 869,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.6 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "64 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "1080 x 2408 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "5 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "2 Mpix"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0b641d7efd5c30d84b8"
+  },
+  "title": "Samsung Galaxy S21 FE 5G 256GB Dual SIM oliwkowy (G990)",
+  "price": 3849,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "256 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "2340 x 1080 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "8 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE, 5G"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0b641d7efd5c30d84b9"
+  },
+  "title": "Samsung Galaxy S22 5G 128GB Dual SIM czarny (S901)",
+  "price": 3699,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.1 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "10 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "8 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "3700 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0b641d7efd5c30d84bb"
+  },
+  "title": "Samsung Galaxy S22+ 5G 128GB Dual SIM czarny (S906)",
+  "price": 4599,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.6 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "10 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "8 GB"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0b641d7efd5c30d84be"
+  },
+  "title": "Samsung Galaxy A53 5G 128GB Dual SIM niebieski (A536)",
+  "price": 1699,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.5 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "64 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "5 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE, 5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "5000 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0b641d7efd5c30d84c4"
+  },
+  "title": "Samsung Galaxy S22 5G 128GB Dual SIM różowy (S901)",
+  "price": 3699,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.1 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "10 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "8 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "3700 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0b641d7efd5c30d84c5"
+  },
+  "title": "Samsung Galaxy S22 5G 256GB Dual SIM czarny (S901)",
+  "price": 3899,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.1 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "256 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "10 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "8 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "3700 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0b641d7efd5c30d84cc"
+  },
+  "title": "Samsung Galaxy A33 5G 128GB Dual SIM pomarańczowy (A336)",
+  "price": 1399,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "48 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "5 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "5000 mAh"
+    },
+    {
+      "name": "Kolor",
+      "value": "pomarańczowy"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0b641d7efd5c30d84d0"
+  },
+  "title": "Samsung Galaxy S22 5G 256GB Dual SIM różowy (S901)",
+  "price": 3899,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.1 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "256 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "10 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "8 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "3700 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0b641d7efd5c30d84d3"
+  },
+  "title": "Samsung Galaxy S21 FE 5G 256GB Dual SIM grafitowy (G990)",
+  "price": 3849,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "256 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "2340 x 1080 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "8 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE, 5G"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0b641d7efd5c30d84dc"
+  },
+  "title": "Samsung Galaxy S21 FE 5G 128GB Dual SIM lawendowy (G990)",
+  "price": 3499,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "2340 x 1080 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE, 5G"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0b641d7efd5c30d84dd"
+  },
+  "title": "Samsung Galaxy S22+ 5G 256GB Dual SIM różowy (S906)",
+  "price": 4699,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.6 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "256 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "10 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "8 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "4500 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0b641d7efd5c30d84e0"
+  },
+  "title": "Samsung Galaxy M13 64GB Dual SIM pomarańczowy (M135)",
+  "price": 869,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.6 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "64 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "1080 x 2408 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "5 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "2 Mpix"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0b641d7efd5c30d84e1"
+  },
+  "title": "Samsung Galaxy S21 FE 5G 256GB Dual SIM lawendowy (G990)",
+  "price": 3849,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "256 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "2340 x 1080 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE, 5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "4500 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0b641d7efd5c30d84e2"
+  },
+  "title": "Samsung Galaxy S21 FE 5G 256GB Dual SIM biały (G990)",
+  "price": 3849,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "256 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "2340 x 1080 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "8 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE, 5G"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0b641d7efd5c30d84e3"
+  },
+  "title": "Samsung Galaxy S22 5G 256GB Dual SIM biały (S901)",
+  "price": 3899,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.1 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "256 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "10 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "8 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "3700 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0bb41d7efd5c30d84e5"
+  },
+  "title": "Samsung Galaxy S21 FE 5G 128GB Dual SIM grafitowy (G990)",
+  "price": 3499,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "2340 x 1080 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE, 5G"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0bb41d7efd5c30d84e7"
+  },
+  "title": "Samsung Galaxy A13 64GB Dual SIM niebieski (A137)",
+  "price": 849,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.6 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "64 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "5 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "2 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "4 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "5000 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0bb41d7efd5c30d84ec"
+  },
+  "title": "Samsung Galaxy A33 5G 128GB Dual SIM biały (A336)",
+  "price": 1399,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "48 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "5 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "5000 mAh"
+    },
+    {
+      "name": "Kolor",
+      "value": "biały"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0bb41d7efd5c30d84ee"
+  },
+  "title": "Samsung Galaxy S21 FE 5G 128GB Dual SIM grafitowy (G990)",
+  "price": 3499,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "2340 x 1080 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE, 5G"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0bb41d7efd5c30d84f1"
+  },
+  "title": "Samsung Galaxy S22 5G 128GB Dual SIM zielony (S901)",
+  "price": 3699,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.1 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "10 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "8 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "3700 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0bb41d7efd5c30d84f3"
+  },
+  "title": "Samsung Galaxy S21 FE 5G 256GB Dual SIM biały (G990)",
+  "price": 3849,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "256 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "2340 x 1080 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "8 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE, 5G"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0bb41d7efd5c30d84f5"
+  },
+  "title": "Samsung Galaxy S21 FE 5G 128GB Dual SIM biały (G990)",
+  "price": 3499,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "2340 x 1080 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE, 5G"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0bb41d7efd5c30d84f7"
+  },
+  "title": "Samsung Galaxy S21 FE 5G 128GB Dual SIM biały (G990)",
+  "price": 3499,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "2340 x 1080 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE, 5G"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0bb41d7efd5c30d84fe"
+  },
+  "title": "Samsung Galaxy S22+ 5G 128GB Dual SIM różowy (S906)",
+  "price": 4599,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.6 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "10 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "8 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "4500 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0bb41d7efd5c30d84ff"
+  },
+  "title": "Samsung Galaxy M13 64GB Dual SIM zielony (M135)",
+  "price": 869,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.6 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "64 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "1080 x 2408 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "5 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "2 Mpix"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0bb41d7efd5c30d8501"
+  },
+  "title": "Samsung Galaxy A33 5G 128GB Dual SIM czarny (A336)",
+  "price": 1399,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "48 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "5 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "5000 mAh"
+    },
+    {
+      "name": "Kolor",
+      "value": "czarny"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0bb41d7efd5c30d8504"
+  },
+  "title": "Samsung Galaxy S22 5G 128GB Dual SIM biały (S901)",
+  "price": 3699,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.1 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "10 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "8 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "3700 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0bb41d7efd5c30d8505"
+  },
+  "title": "Samsung Galaxy A53 5G 128GB Dual SIM biały (A536)",
+  "price": 1699,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.5 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "64 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "5 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0bb41d7efd5c30d8506"
+  },
+  "title": "Samsung Galaxy M13 64GB Dual SIM niebieski (M135)",
+  "price": 869,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.6 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "64 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Rozdzielczość",
+      "value": "1080 x 2408 piksele"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "5 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "2 Mpix"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0bb41d7efd5c30d850d"
+  },
+  "title": "Samsung Galaxy S22 5G 128GB Dual SIM czarny (S901)",
+  "price": 3699,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.1 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "10 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "8 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "3700 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0bb41d7efd5c30d850f"
+  },
+  "title": "Samsung Galaxy S22+ 5G 128GB Dual SIM czarny (S906)",
+  "price": 4599,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.6 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "10 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "8 GB"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0bb41d7efd5c30d8512"
+  },
+  "title": "Samsung Galaxy A53 5G 128GB Dual SIM niebieski (A536)",
+  "price": 1699,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.5 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "64 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "5 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "4G LTE, 5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "5000 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0bb41d7efd5c30d8518"
+  },
+  "title": "Samsung Galaxy S22 5G 128GB Dual SIM różowy (S901)",
+  "price": 3699,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.1 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "10 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "8 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "3700 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0bb41d7efd5c30d8519"
+  },
+  "title": "Samsung Galaxy S22 5G 256GB Dual SIM czarny (S901)",
+  "price": 3899,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.1 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "256 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "10 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "8 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "3700 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0bb41d7efd5c30d851b"
+  },
+  "title": "Samsung Galaxy S22+ 5G 128GB Dual SIM zielony (S906)",
+  "price": 4599,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.6 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "10 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "8 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "4500 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0bb41d7efd5c30d851d"
+  },
+  "title": "Samsung Galaxy S22 5G 256GB Dual SIM zielony (S901)",
+  "price": 3899,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.1 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "256 GB"
+    },
+    {
+      "name": "System operacyjny",
+      "value": "Android 12"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "50 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "12 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "10 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "8 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "3700 mAh"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6341f0bb41d7efd5c30d8520"
+  },
+  "title": "Samsung Galaxy A33 5G 128GB Dual SIM pomarańczowy (A336)",
+  "price": 1399,
+  "attributes": [
+    {
+      "name": "Przekątna wyświetlacza",
+      "value": "6.4 cale"
+    },
+    {
+      "name": "Pamięć Flash",
+      "value": "128 GB"
+    },
+    {
+      "name": "Aparat fotograficzny z tyłu",
+      "value": "48 Mpix"
+    },
+    {
+      "name": "Drugi aparat fotograficzny z tyłu",
+      "value": "8 Mpix"
+    },
+    {
+      "name": "Trzeci aparat fotograficzny z tyłu",
+      "value": "5 Mpix"
+    },
+    {
+      "name": "Pamięć RAM",
+      "value": "6 GB"
+    },
+    {
+      "name": "Transmisja danych",
+      "value": "5G"
+    },
+    {
+      "name": "Pojemność akumulatora",
+      "value": "5000 mAh"
+    },
+    {
+      "name": "Kolor",
+      "value": "pomarańczowy"
+    }
+  ]
+}]
