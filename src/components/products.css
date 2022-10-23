@@ -18,7 +18,8 @@
     cursor: pointer;
 }
 .product-image{
-    width: 85%;
+    width: 95%;
+    height: 97%;
 }
 .product:hover{
     border: 1px solid rgb(68, 68, 68);

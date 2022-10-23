@@ -4,11 +4,14 @@ import './products.css'
 import { API_URL } from "../config"
 
 import { useDispatch, useSelector } from "react-redux"
+import { useNavigate } from "react-router-dom"
+import { LazyLoadImage } from "react-lazy-load-image-component"
 
 import { productsFetch } from '../store/slices/products'
 import { addToCard } from "../store/slices/shoppingCart"
+
 import Pagination from "./pagination"
-import { useNavigate } from "react-router-dom"
+
 
 
 const Products = ()=>{
@@ -62,7 +65,14 @@ const Products = ()=>{
     <div id="products">
       {products.map(product=>
         <article onClick={(e)=>onClickProduct(e, product._id)} className="product" key={product._id}>
-          <div className="product-image-holder"><img className="product-image" src={`${API_URL}/images/${product._id}/1.jpg`}/></div>
+          <div className="product-image-holder">
+            <LazyLoadImage
+              width={260}
+              height={260}
+              className="product-image" 
+              src={`${API_URL}/images/${product._id}/1.jpg`}
+              alt={product.title}/>
+          </div>
           <div className="product-title">{product.title}</div>
           <div className="product-price">{product.price} zł</div>
           <div className="icon-svg add-product-button" onClick={(e)=>dispatch(addToCard(product._id))}>add_shopping_cart</div>
