@@ -12,6 +12,7 @@ const ProductDetails = ()=>{
     const [product, setProduct] = useState(null)
     const [imageIndex, setImageIndex] = useState(1)
     const [imageIsChange, setImageIsChange] = useState(false)
+    const [imageIsLoading, setImageIsLoading] = useState(false)
 
     const dispatch = useDispatch()
 
@@ -28,10 +29,19 @@ const ProductDetails = ()=>{
         })
     },[])
 
+    useEffect(()=>{
+        if(imageIsLoading)
+            return
+        setImageIsChange(true)
+        setTimeout(()=>{
+            setImageIsChange(false)
+        },700)
+    },[imageIsLoading])
+
     const onClickChange = direction=>{
         if(imageIsChange)
             return
-        setImageIsChange(true)
+        setImageIsLoading(true)
         if(direction == "left"){
             if(imageIndex == 1){
                 setImageIndex(product.lastImage)
@@ -48,9 +58,10 @@ const ProductDetails = ()=>{
                 setImageIndex(val=>val+1)
             }
         }
-        setTimeout(()=>{
-            setImageIsChange(false)
-        },700)
+    }
+
+    const onLoad = ()=>{
+        setImageIsLoading(false)
     }
 
 
@@ -60,8 +71,9 @@ const ProductDetails = ()=>{
             <button className="details-change-img img-left" onClick={()=>onClickChange("left")}></button>
             <img 
                 id="details-image" 
-                className={imageIsChange? "image-change": ""}
+                className={(imageIsChange? "image-change": "")+(imageIsLoading? " invisible":"")}
                 src={`${API_URL}/images/${product.item._id}/1-${imageIndex}.jpg`}
+                onLoad={onLoad}
             />
             <button className="details-change-img img-right" onClick={()=>onClickChange("right")}></button>
         </div>

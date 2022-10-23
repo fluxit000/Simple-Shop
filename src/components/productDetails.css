@@ -71,6 +71,9 @@
 .image-change{
     animation: image-change .7s both;
 }
+.invisible{
+    opacity: 0;
+}
 
 @keyframes image-change {
     0% {
