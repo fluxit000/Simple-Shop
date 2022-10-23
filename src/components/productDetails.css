@@ -68,6 +68,18 @@
     content: ">";
 }
 
+.image-change{
+    animation: image-change .7s both;
+}
+
+@keyframes image-change {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
 
 @media only screen and (max-width: 900px) {

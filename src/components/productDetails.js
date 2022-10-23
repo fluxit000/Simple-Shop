@@ -11,6 +11,7 @@ const ProductDetails = ()=>{
     const productId = useParams().id
     const [product, setProduct] = useState(null)
     const [imageIndex, setImageIndex] = useState(1)
+    const [imageIsChange, setImageIsChange] = useState(false)
 
     const dispatch = useDispatch()
 
@@ -28,6 +29,9 @@ const ProductDetails = ()=>{
     },[])
 
     const onClickChange = direction=>{
+        if(imageIsChange)
+            return
+        setImageIsChange(true)
         if(direction == "left"){
             if(imageIndex == 1){
                 setImageIndex(product.lastImage)
@@ -44,6 +48,9 @@ const ProductDetails = ()=>{
                 setImageIndex(val=>val+1)
             }
         }
+        setTimeout(()=>{
+            setImageIsChange(false)
+        },700)
     }
 
 
@@ -51,7 +58,11 @@ const ProductDetails = ()=>{
         {product && <>
         <div id="details-image-container">
             <button className="details-change-img img-left" onClick={()=>onClickChange("left")}></button>
-            <img id="details-image" src={`${API_URL}/images/${product.item._id}/1-${imageIndex}.jpg`}/>
+            <img 
+                id="details-image" 
+                className={imageIsChange? "image-change": ""}
+                src={`${API_URL}/images/${product.item._id}/1-${imageIndex}.jpg`}
+            />
             <button className="details-change-img img-right" onClick={()=>onClickChange("right")}></button>
         </div>
         <div>
