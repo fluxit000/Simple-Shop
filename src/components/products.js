@@ -40,10 +40,14 @@ const Products = ()=>{
   //product.title.length > 20 && width < 680 ? product.title.slice(0,20)+"...":product.title
 
   const onClickProduct = (e,id)=>{
-    console.log()
     if(!e.target.classList.value.includes("add-product-button")){
       navigate("/product/"+id)
     }
+  }
+
+  const onKeyDownProduct = (e,id)=>{
+    if(e.key === "Enter")
+      onClickProduct(e, id)
   }
 
   return(<>
@@ -64,7 +68,11 @@ const Products = ()=>{
   {!isLoading && products.length !== 0 && <>
     <div id="products">
       {products.map(product=>
-        <article onClick={(e)=>onClickProduct(e, product._id)} className="product" key={product._id}>
+        <article 
+          onClick={(e)=>onClickProduct(e, product._id)} 
+          className="product" key={product._id} 
+          tabIndex="0" 
+          onKeyDown={(e)=>onKeyDownProduct(e, product._id)}>
           <div className="product-image-holder">
             <LazyLoadImage
               width={260}

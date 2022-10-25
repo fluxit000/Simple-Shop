@@ -5,7 +5,7 @@ import { useDispatch } from 'react-redux'
 
 import { productsFetch } from '../store/slices/products'
 
-import { Link, useLocation } from 'react-router-dom'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 
 const Navbar = ()=>{
   const [width, setWidth] = useState(window.innerWidth)
@@ -13,6 +13,7 @@ const Navbar = ()=>{
   const [inputValue, setInput] = useState("")
 
   const dispatch = useDispatch()
+  const navigate = useNavigate()
 
   const location = useLocation()
 
@@ -52,9 +53,9 @@ const Navbar = ()=>{
       {/* <button className="nav-button">
         Zaloguj się
       </button> */}
-      <Link to="card" className="icon-svg shopping-cart">
+      <button className="icon-svg shopping-cart" onClick={()=>navigate("card")}>
         shopping_cart
-      </Link>
+      </button>
     </div>
   </nav>)
 }

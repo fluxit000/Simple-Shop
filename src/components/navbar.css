@@ -36,7 +36,7 @@ nav{
     overflow: hidden;
     order: 0;
     font-size: 24px;
-    background-color: black;
+    background-color: rgb(80, 80, 80);
     color: white;
     border: none;
     outline: none;
@@ -65,6 +65,9 @@ nav{
 }
 
 .shopping-cart{
+    background-color: transparent;
+    border: none;
+    padding: 0;
     overflow: hidden;
     cursor: pointer;
     order: 2;
@@ -72,6 +75,9 @@ nav{
     font-size: 36px;  /* Preferred icon size */
     height: 36px;
     width: 36px;
+}
+.search-button:focus{
+    background-color: black;
 }
 
 @media only screen and (max-width: 1000px) {

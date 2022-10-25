@@ -21,13 +21,15 @@ const Pagination = ()=>{
     }
 
     return (<section className='pages'>
-        {getPagingRange(currentPage,{min:1, total: lastPage, length:7}).map(i=><div 
+        {getPagingRange(currentPage,{min:1, total: lastPage, length:7}).map(i=>
+        <button 
+        tabIndex="0"
         key={i} 
         onClick={()=>dispatch(productsFetch("", i, true))} 
         className={'page-number '+(currentPage===i?"page-active":"")}
         >
             {i}
-        </div>)}
+        </button>)}
     </section>)
 }
 
