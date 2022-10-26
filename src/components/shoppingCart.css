@@ -8,7 +8,7 @@
 
 .cards-no-products{
     margin-top: 3%;
-    font-size: 38px;
+    font-size: 2.38rem;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -17,7 +17,7 @@
     margin-top: 3%;
     cursor: pointer;
     padding: 1%;
-    font-size: 25px;
+    font-size: 1.56rem;
     background-color: rgb(37, 150, 255);
     color: white;
     border-radius: 25px;
@@ -58,7 +58,7 @@
     color: white;
     cursor: pointer;
     padding: 3% 6%;
-    font-size: 18px;
+    font-size: 1.14rem;
     background-color: #4CAF50;
     border: none;
 }
@@ -108,16 +108,16 @@
     }
     .crad-quantity-buttons{
         padding: 1% 6%;
-        font-size: 14px;
+        font-size: .9rem;
     }
     .crad-price{
-        font-size: 11px;
+        font-size: .7rem;
     }
 
     .crad-title, .crad-quantity{
-        font-size: 10px;
+        font-size: .63rem;
     }
     .card-sum{
-        font-size: 10.4px;
+        font-size: .65rem;
     }
 }
