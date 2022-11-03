@@ -1,16 +1,17 @@
-import { useDispatch, useSelector } from 'react-redux'
+import { useSelector } from 'react-redux'
+import { RootState, useAppDispatch } from '../store'
 import { productsFetch } from '../store/slices/products'
 import './pagination.css'
 
 
 const Pagination = ()=>{
 
-    const currentPage = useSelector(s=>s.products.currentPage)
-    const lastPage = useSelector(s=>s.products.lastPage)
+    const currentPage = useSelector((s:RootState)=>s.products.currentPage)
+    const lastPage = useSelector((s:RootState)=>s.products.lastPage)
 
-    const dispatch = useDispatch()
+    const dispatch = useAppDispatch()
 
-    const getPagingRange = (current, {min = 1, total = 20, length = 5} = {})=>{
+    const getPagingRange = (current:number, {min = 1, total = 20, length = 5} = {})=>{
         if (length > total) length = total;
       
         let start = current - Math.floor(length / 2);
@@ -23,7 +24,7 @@ const Pagination = ()=>{
     return (<section className='pages'>
         {getPagingRange(currentPage,{min:1, total: lastPage, length:7}).map(i=>
         <button 
-        tabIndex="0"
+        tabIndex={0}
         key={i} 
         onClick={()=>dispatch(productsFetch("", i, true))} 
         className={'page-number '+(currentPage===i?"page-active":"")}

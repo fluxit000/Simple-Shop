@@ -1,5 +1,21 @@
 import { API_URL } from "../../config";
-import { createSlice } from "@reduxjs/toolkit";
+import { AnyAction, createSlice, ThunkDispatch } from "@reduxjs/toolkit";
+import { ShoppingCart } from "./shoppingCart";
+
+export type Product = {
+    _id: string
+    title: string
+    price: number
+}
+
+export type Products = {
+    currentPage: number
+    lastPage: number
+    currentSearchValue: string
+    isLoading: boolean
+    hasError: boolean
+    products: Product[]
+}
 
 const initialState = {
     currentPage: -1,
@@ -8,7 +24,7 @@ const initialState = {
     isLoading: false,
     hasError: false,
     products: []
-}
+} 
 
 export const productsSlice = createSlice({
     name:'products',
@@ -36,9 +52,20 @@ export const productsSlice = createSlice({
     }
 })
 
-export const productsFetch = (inputValue, page, fromPageChnage = false)=>{
-    return async (dispatch, getState)=>{
-        let searchValue
+type ThunkAction<
+  R, // Return type of the thunk function
+  S, // state type used by getState
+  E, // any "extra argument" injected into the thunk
+  A extends AnyAction // known types of actions that can be dispatched
+> = (dispatch: ThunkDispatch<S, E, A>, getState: () => S, extraArgument: E) => R
+
+export const productsFetch = (inputValue: string, page: number, fromPageChnage = false):
+ThunkAction<void,{shoppingCart: ShoppingCart, products: Products}, unknown, AnyAction>=>{
+    return async (
+    dispatch, 
+    getState,
+    )=>{
+        let searchValue:string
         if(fromPageChnage){
             searchValue = getState().products.currentSearchValue
         }

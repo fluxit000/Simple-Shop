@@ -1,16 +1,17 @@
-import { useEffect, useState } from "react"
+import React, { useEffect, useState } from "react"
 import './products.css'
 
 import { API_URL } from "../config"
 
-import { useDispatch, useSelector } from "react-redux"
+import { useSelector } from "react-redux"
 import { useNavigate } from "react-router-dom"
 import { LazyLoadImage } from "react-lazy-load-image-component"
 
-import { productsFetch } from '../store/slices/products'
+import { Product, productsFetch } from '../store/slices/products'
 import { addToCard } from "../store/slices/shoppingCart"
 
 import Pagination from "./pagination"
+import { RootState, useAppDispatch } from "../store"
 
 
 
@@ -18,11 +19,11 @@ const Products = ()=>{
 
   const [width, setWidth] = useState(window.innerWidth)
 
-  const products = useSelector(s=>s.products.products)
-  const isLoading = useSelector(s=>s.products.isLoading)
-  const hasError = useSelector(s=>s.products.hasError)
+  const products = useSelector((s: RootState)=>s.products.products)
+  const isLoading = useSelector((s: RootState)=>s.products.isLoading)
+  const hasError = useSelector((s: RootState)=>s.products.hasError)
 
-  const dispatch = useDispatch()
+  const dispatch = useAppDispatch()
   const navigate = useNavigate()
 
   useEffect(() => {
@@ -39,15 +40,21 @@ const Products = ()=>{
 
   //product.title.length > 20 && width < 680 ? product.title.slice(0,20)+"...":product.title
 
-  const onClickProduct = (e,id)=>{
-    if(!e.target.classList.value.includes("add-product-button")){
-      navigate("/product/"+id)
+  const navigateToProduct = (id: string)=>{
+    navigate("/product/"+id)
+  }
+
+  const onClickProduct = (e:React.MouseEvent<HTMLElement> ,id:string)=>{
+    if(!(e.target as Element).classList.value.includes("add-product-button")){
+      navigateToProduct(id)
     }
   }
 
-  const onKeyDownProduct = (e,id)=>{
+  const onKeyDownProduct = (e:React.KeyboardEvent<HTMLElement>,id:string)=>{
     if(e.key === "Enter")
-      onClickProduct(e, id)
+      if(!(e.target as Element).classList.value.includes("add-product-button")){
+        navigateToProduct(id)
+      }
   }
 
   return(<>
@@ -67,11 +74,11 @@ const Products = ()=>{
 
   {!isLoading && products.length !== 0 && <>
     <div id="products">
-      {products.map(product=>
+      {products.map((product:Product)=>
         <article 
           onClick={(e)=>onClickProduct(e, product._id)} 
           className="product" key={product._id} 
-          tabIndex="0" 
+          tabIndex={0}
           onKeyDown={(e)=>onKeyDownProduct(e, product._id)}>
           <div className="product-image-holder">
             <LazyLoadImage

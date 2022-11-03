@@ -6,15 +6,22 @@ import './productDetails.css'
 
 import { useDispatch } from "react-redux"
 import { addToCard } from "../store/slices/shoppingCart"
+import { Product } from "../store/slices/products"
+import { useAppDispatch } from "../store"
+
+type Response = {
+    lastImage: number
+    item: Product
+}
 
 const ProductDetails = ()=>{
     const productId = useParams().id
-    const [product, setProduct] = useState(null)
+    const [product, setProduct] = useState<Response | null>(null)
     const [imageIndex, setImageIndex] = useState(1)
     const [imageIsChange, setImageIsChange] = useState(false)
     const [imageIsLoading, setImageIsLoading] = useState(false)
 
-    const dispatch = useDispatch()
+    const dispatch = useAppDispatch()
 
     useEffect(()=>{
         fetch(`${API_URL}/product/${productId}`,{
@@ -38,20 +45,20 @@ const ProductDetails = ()=>{
         },700)
     },[imageIsLoading])
 
-    const onClickChange = direction=>{
+    const onClickChange = (direction: string)=>{
         if(imageIsChange)
             return
         setImageIsLoading(true)
         if(direction == "left"){
             if(imageIndex == 1){
-                setImageIndex(product.lastImage)
+                setImageIndex(product!.lastImage)
             }
             else{
                 setImageIndex(val=>val-1)
             }
         }
         else {
-            if(imageIndex == product.lastImage){
+            if(imageIndex == product!.lastImage){
                 setImageIndex(1)
             }
             else{

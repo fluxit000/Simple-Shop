@@ -6,13 +6,14 @@ import { useDispatch } from 'react-redux'
 import { productsFetch } from '../store/slices/products'
 
 import { Link, useLocation, useNavigate } from 'react-router-dom'
+import { useAppDispatch } from '../store'
 
 const Navbar = ()=>{
   const [width, setWidth] = useState(window.innerWidth)
 
   const [inputValue, setInput] = useState("")
 
-  const dispatch = useDispatch()
+  const dispatch = useAppDispatch()
   const navigate = useNavigate()
 
   const location = useLocation()

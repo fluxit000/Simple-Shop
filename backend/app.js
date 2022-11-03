@@ -28,6 +28,7 @@ app.post('/products', (req, res) => {
     return Product.find({title:{$regex:req.body.title, '$options' : 'i'}})
       .skip((page-1)* ITEMS_PER_PAGE)
       .limit(ITEMS_PER_PAGE)
+      .select({"attributes":0})
       .then((products)=>{
         res.json({
           currentPage: page,
@@ -43,7 +44,7 @@ app.post('/products', (req, res) => {
 })
 
 app.get('/product/:id', (req, res) => {
-  Product.find({_id:ObjectId(req.params.id)})
+  Product.find({_id:ObjectId(req.params.id)}).select({"attributes":0})
     .then((products)=>{
       const product = products[0]
       fs.readdir('./images/'+product._id, (err, files) => {

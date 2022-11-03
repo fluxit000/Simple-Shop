@@ -1,17 +1,19 @@
 import { useDispatch, useSelector } from "react-redux"
 
-import { shoppingCartAction } from "../store/slices/shoppingCart"
+import { ItemInCard, shoppingCartAction } from "../store/slices/shoppingCart"
 
 import { API_URL } from "../config"
 
 import './shoppingCart.css'
 import { Link } from "react-router-dom"
+import { RootState } from "../store"
+
 const ShoppingCart = ()=>{
-    const {totalPrice, itemsInCard} = useSelector(value=>value.shoppingCart)
+    const {totalPrice, itemsInCard} = useSelector((value:RootState)=>value.shoppingCart)
 
     const dispatch = useDispatch()
 
-    const onChangeQuantity = (index, operation, _id)=>{
+    const onChangeQuantity = (index: number, operation: string, _id: string)=>{
         if(itemsInCard[index].quantity <= 1 && operation == "decrement"){
             dispatch(shoppingCartAction.updateProductQuantity({index, operation: "remove", _id}))
         }
@@ -27,7 +29,7 @@ const ShoppingCart = ()=>{
     </div>}
     {itemsInCard.length !== 0 && <div className="card-container">
         <div className="cards">
-            {itemsInCard.map((element,i)=><article className="card" key={element._id}>
+            {itemsInCard.map((element:ItemInCard,i)=><article className="card" key={element._id}>
                 <Link className="card-holder-left" to={"/product/"+element._id}>
                     <img className="crad-image" src={`${API_URL}/images/${element._id}/1.jpg`}/>
                     <div className="crad-title">{element.title}</div>

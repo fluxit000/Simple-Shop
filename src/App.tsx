@@ -8,14 +8,16 @@ import {Route, Routes} from 'react-router-dom'
 import { useEffect, useState } from 'react';
 
 import { useSelector, useDispatch } from 'react-redux';
-import { shoppingCartAction } from './store/slices/shoppingCart';
+import { ShoppingCart as ShoppingCartDef, shoppingCartAction } from './store/slices/shoppingCart';
+import {Products as ProductsDef} from './store/slices/products';
+import { RootState } from './store';
 
 
 
 
 function App() {
   //updating shopping cart data to local storage
-  const {totalPrice, itemsInCard} = useSelector(value=>value.shoppingCart)
+  const {totalPrice, itemsInCard} = useSelector((value:RootState)=>value.shoppingCart)
 
   const dispatch = useDispatch()
   const [firstEnter, setFirstEnter] = useState(true)
@@ -32,7 +34,7 @@ function App() {
 
 
   useEffect(()=>{
-    const shoppingCartData = JSON.parse(localStorage.getItem("ShoppingCart"))
+    const shoppingCartData = JSON.parse(localStorage.getItem("ShoppingCart")!.toString())
     if(shoppingCartData){
       dispatch(shoppingCartAction.updateCardData({newCard: shoppingCartData.itemsInCard, updatePrice: shoppingCartData.totalPrice}))
     }
