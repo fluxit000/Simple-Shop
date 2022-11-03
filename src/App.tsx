@@ -34,6 +34,9 @@ function App() {
 
 
   useEffect(()=>{
+    if(!localStorage.getItem("ShoppingCart")){
+      return
+    }
     const shoppingCartData = JSON.parse(localStorage.getItem("ShoppingCart")!.toString())
     if(shoppingCartData){
       dispatch(shoppingCartAction.updateCardData({newCard: shoppingCartData.itemsInCard, updatePrice: shoppingCartData.totalPrice}))
