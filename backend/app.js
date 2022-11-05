@@ -46,6 +46,10 @@ app.post('/products', (req, res) => {
 app.get('/product/:id', (req, res) => {
   Product.find({_id:ObjectId(req.params.id)}).select({"attributes":0})
     .then((products)=>{
+      if(products.length == 0){
+        res.json({item:null, lastImage:0})
+        return
+      }
       const product = products[0]
       fs.readdir('./images/'+product._id, (err, files) => {
         res.json({item:product, lastImage:files.length-1})

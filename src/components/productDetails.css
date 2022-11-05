@@ -43,6 +43,11 @@
     color: white;
     background-color: #4CAF50;
 }
+#details-error{
+    text-align: center;
+    font-size: 2.38rem;
+    padding: 1rem;
+}
 .details-change-img{
     background-color: transparent;
     color: rgb(122, 122, 122);

@@ -4,7 +4,6 @@ import { API_URL } from "../config"
 
 import './productDetails.css'
 
-import { useDispatch } from "react-redux"
 import { addToCard } from "../store/slices/shoppingCart"
 import { Product } from "../store/slices/products"
 import { useAppDispatch } from "../store"
@@ -17,6 +16,7 @@ type Response = {
 const ProductDetails = ()=>{
     const productId = useParams().id
     const [product, setProduct] = useState<Response | null>(null)
+    const [error, setError] = useState(false)
     const [imageIndex, setImageIndex] = useState(1)
     const [imageIsChange, setImageIsChange] = useState(false)
     const [imageIsLoading, setImageIsLoading] = useState(false)
@@ -32,9 +32,12 @@ const ProductDetails = ()=>{
         })
         .then((response)=>response.json())
         .then((response)=>{
+            if(!response.item){
+                setError(true)
+            }
             setProduct(response)
         })
-    },[])
+    },[productId])
 
     useEffect(()=>{
         if(imageIsLoading)
@@ -49,8 +52,8 @@ const ProductDetails = ()=>{
         if(imageIsChange)
             return
         setImageIsLoading(true)
-        if(direction == "left"){
-            if(imageIndex == 1){
+        if(direction === "left"){
+            if(imageIndex === 1){
                 setImageIndex(product!.lastImage)
             }
             else{
@@ -58,7 +61,7 @@ const ProductDetails = ()=>{
             }
         }
         else {
-            if(imageIndex == product!.lastImage){
+            if(imageIndex === product!.lastImage){
                 setImageIndex(1)
             }
             else{
@@ -73,7 +76,8 @@ const ProductDetails = ()=>{
 
 
     return(<article id="details-container">
-        {product && <>
+        {error && <div id="details-error">Bląd ładowania</div>}
+        {product && !error && <>
         <div id="details-image-container">
             <button className="details-change-img img-left" onClick={()=>onClickChange("left")}></button>
             <img 
@@ -81,6 +85,7 @@ const ProductDetails = ()=>{
                 className={(imageIsChange? "image-change": "")+(imageIsLoading? " invisible":"")}
                 src={`${API_URL}/images/${product.item._id}/1-${imageIndex}.jpg`}
                 onLoad={onLoad}
+                alt={product.item.title}
             />
             <button className="details-change-img img-right" onClick={()=>onClickChange("right")}></button>
         </div>
