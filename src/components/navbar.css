@@ -85,7 +85,7 @@ nav{
         font-size: 1.2rem;
     }
 }
-@media only screen and (max-width: 622px) {
+@media only screen and (max-width: 668px) {
     nav{
         flex-wrap: wrap;
         justify-content: space-between;

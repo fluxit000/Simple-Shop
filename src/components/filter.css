@@ -1,0 +1,34 @@
+#filter-container{
+    margin: 0.2rem;
+    margin-top: 1.3rem;
+    padding: .6rem;
+    border-radius: 20px;
+    border: 1px solid black;
+    height: 100%;
+}
+#filter-title{
+    font-size: 1.3rem;
+    margin-bottom: .2rem;
+}
+.filter-option-title{
+    padding-bottom: .2rem;
+}
+.filter-input-container{
+    display: flex;
+    justify-content: center;
+}
+.number::-webkit-inner-spin-button, 
+.number::-webkit-outer-spin-button { /* disable increase button */
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.number{
+    padding: .2rem;
+    text-align: center;
+    font-size: 1.2rem;
+    border: 1px solid rgb(68, 68, 68);
+    border-radius: 25px;
+}
+.number:first-child{
+    margin-right: .5rem;
+}

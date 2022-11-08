@@ -17,7 +17,7 @@ export type Products = {
     products: Product[]
 }
 
-const initialState = {
+const initialState:Products = {
     currentPage: -1,
     lastPage: -1,
     currentSearchValue: "",

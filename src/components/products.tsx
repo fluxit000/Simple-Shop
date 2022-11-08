@@ -12,6 +12,7 @@ import { addToCard } from "../store/slices/shoppingCart"
 
 import Pagination from "./pagination"
 import { RootState, useAppDispatch } from "../store"
+import Filter from "./filter"
 
 
 
@@ -73,7 +74,9 @@ const Products = ()=>{
   </div>}
 
   {!isLoading && products.length !== 0 && <>
-    <div id="products">
+    <div id="products-container">
+      <Filter/>
+      <div id="products">
       {products.map((product:Product)=>
         <article 
           onClick={(e)=>onClickProduct(e, product._id)} 
@@ -93,6 +96,7 @@ const Products = ()=>{
           <div className="icon-svg add-product-button" onClick={(e)=>dispatch(addToCard(product._id))}>add_shopping_cart</div>
         </article>
       )}
+      </div>
     </div>
     <Pagination/>
   </>}

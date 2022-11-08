@@ -4,6 +4,7 @@ import { useDispatch } from "react-redux";
 import { productsSlice } from "./slices/products";
 import { shoppingCartSlice } from "./slices/shoppingCart";
 
+
 const store = configureStore({
     reducer: {
         products: productsSlice.reducer,
