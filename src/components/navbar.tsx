@@ -1,8 +1,6 @@
 import { useEffect, useState } from 'react'
 import './navbar.css'
 
-import { useDispatch } from 'react-redux'
-
 import { productsFetch } from '../store/slices/products'
 
 import { Link, useLocation, useNavigate } from 'react-router-dom'
@@ -13,12 +11,18 @@ const Navbar = ()=>{
 
   const [inputValue, setInput] = useState("")
 
+  const [firstRender, setFirstRender] = useState(true)
+
   const dispatch = useAppDispatch()
   const navigate = useNavigate()
 
   const location = useLocation()
 
   useEffect(()=>{
+    if(firstRender){
+      setFirstRender(false)
+      return
+    }
     if(location.pathname == "/"){
       dispatch(productsFetch("",1))
     }

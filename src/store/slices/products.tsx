@@ -71,7 +71,7 @@ type ThunkAction<
   A extends AnyAction // known types of actions that can be dispatched
 > = (dispatch: ThunkDispatch<S, E, A>, getState: () => S, extraArgument: E) => R
 
-export const productsFetch = (inputValue: string, page: number, chamgeFrom:string = "",  filter:Filter = {}):
+export const productsFetch = (inputValue: string, page: number, changeFrom:string = "",  filter:Filter = {}):
 ThunkAction<void,{shoppingCart: ShoppingCart, products: Products}, unknown, AnyAction>=>{
     return async (
     dispatch, 
@@ -79,10 +79,11 @@ ThunkAction<void,{shoppingCart: ShoppingCart, products: Products}, unknown, AnyA
     )=>{
         const currentState = getState()
         let searchValue:string
-        if(chamgeFrom == "page"){
+
+        if(changeFrom == "page"){
             searchValue = currentState.products.currentSearchValue
         }
-        else if(chamgeFrom == "filter"){
+        else if(changeFrom == "filter"){
             dispatch(productsActions.setFilter(filter))
             searchValue = currentState.products.currentSearchValue
             page = currentState.products.currentPage
