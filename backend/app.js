@@ -23,12 +23,29 @@ app.post('/products', (req, res) => {
   const page = req.body.page;
   let totalItems;
 
-  Product.find({title:{$regex:req.body.title, '$options' : 'i'}}).count().then((size)=>{
+  let query = {
+    title:{
+      $regex: req.body.title, 
+      $options : 'i'
+    }
+  }
+
+  if(req.body.filter){
+    query.price = {
+      $gt: req.body.filter.minPrice, 
+      $lt: req.body.filter.maxPrice
+    }
+  }
+
+  Product.find(query)
+  .count()
+  .then((size)=>{
     totalItems = size
-    return Product.find({title:{$regex:req.body.title, '$options' : 'i'}})
+    return Product.find(query)
       .skip((page-1)* ITEMS_PER_PAGE)
       .limit(ITEMS_PER_PAGE)
       .select({"attributes":0})
+      
       .then((products)=>{
         res.json({
           currentPage: page,
@@ -37,6 +54,7 @@ app.post('/products', (req, res) => {
         })
       })
   }).catch((error)=>{
+    console.log(error)
     res.status(500).json({
       "status":"DB_ERROR"
     })
