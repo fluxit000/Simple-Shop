@@ -24,11 +24,11 @@ const Filter = ()=>{
             return
         }
         if(!min && !max){
-            dispatch(productsFetch("", 0, false, true,{}))
+            dispatch(productsFetch("", 0, "filter", {}))
             return
         }
         const timeOut = setTimeout(() => {
-            dispatch(productsFetch("", 0, false, true,{minPrice: min, maxPrice: max}))
+            dispatch(productsFetch("", 0, "filter",{minPrice: min, maxPrice: max}))
         }, 500);
 
         return ()=>clearTimeout(timeOut)

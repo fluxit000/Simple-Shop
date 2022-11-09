@@ -26,7 +26,7 @@ const Pagination = ()=>{
         <button 
         tabIndex={0}
         key={i} 
-        onClick={()=>dispatch(productsFetch("", i, true))} 
+        onClick={()=>dispatch(productsFetch("", i, "page"))} 
         className={'page-number '+(currentPage===i?"page-active":"")}
         >
             {i}
