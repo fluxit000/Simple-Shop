@@ -60,24 +60,25 @@ const Products = ()=>{
 
   return(<>
 
-  {isLoading && <div className="spinner-container">
-    <div className="loading-spinner">
-    </div>
-  </div>}
+  
+  
+  <div id="products-container">
+    <Filter/>
+    {!isLoading && <div id="products">
+      {products.length === 0 && !hasError && <div className="products-is-empty">
+        Nie znaleziono takich produktów.
+      </div>}
 
-  {hasError && <div className="products-is-empty">
-    Bląd połaczenia z serwer spróbuj ponownie
-  </div>}
+      {isLoading && <div className="spinner-container">
+        <div className="loading-spinner">
+        </div>
+      </div>}
 
-  {products.length === 0 && !hasError && <div className="products-is-empty">
-    Brak produktów o takiej nazwie
-  </div>}
+      {hasError && <div className="products-is-empty">
+      Bląd połaczenia z serwer spróbuj ponownie
+      </div>}
 
-  {!isLoading && products.length !== 0 && <>
-    <div id="products-container">
-      <Filter/>
-      <div id="products">
-      {products.map((product:Product)=>
+      {products.length !== 0 && products.map((product:Product)=>
         <article 
           onClick={(e)=>onClickProduct(e, product._id)} 
           className="product" key={product._id} 
@@ -96,10 +97,9 @@ const Products = ()=>{
           <div className="icon-svg add-product-button" onClick={(e)=>dispatch(addToCard(product._id))}>add_shopping_cart</div>
         </article>
       )}
-      </div>
-    </div>
-    <Pagination/>
-  </>}
+    </div>}
+  </div>
+  {!hasError && <Pagination/>}
   </>)
 }
 

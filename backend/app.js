@@ -30,9 +30,14 @@ app.post('/products', (req, res) => {
     }
   }
 
-  if(req.body.filter){
+  if(req.body.filter.minPrice){
     query.price = {
-      $gt: req.body.filter.minPrice, 
+      $gt: req.body.filter.minPrice
+    }
+  }
+  if(req.body.filter.maxPrice){
+    query.price = {
+      ...query.price,
       $lt: req.body.filter.maxPrice
     }
   }

@@ -8,23 +8,30 @@ export type Product = {
     price: number
 }
 
+type Filter = {
+    minPrice?: number,
+    maxPrice?: number
+}
+
 export type Products = {
     currentPage: number
     lastPage: number
     currentSearchValue: string
     isLoading: boolean
     hasError: boolean
-    products: Product[]
+    products: Product[],
+    filter: Filter
 }
 
 const initialState:Products = {
-    currentPage: -1,
-    lastPage: -1,
+    currentPage: 1,
+    lastPage: 0,
     currentSearchValue: "",
     isLoading: false,
     hasError: false,
-    products: []
-} 
+    products: [],
+    filter: {}
+}
 
 export const productsSlice = createSlice({
     name:'products',
@@ -48,9 +55,14 @@ export const productsSlice = createSlice({
         },
         setHasError(state, action){
             state.hasError = action.payload
+        },
+        setFilter(state, action){
+            state.filter = action.payload
         }
     }
 })
+
+
 
 type ThunkAction<
   R, // Return type of the thunk function
@@ -59,27 +71,35 @@ type ThunkAction<
   A extends AnyAction // known types of actions that can be dispatched
 > = (dispatch: ThunkDispatch<S, E, A>, getState: () => S, extraArgument: E) => R
 
-export const productsFetch = (inputValue: string, page: number, fromPageChnage = false):
+export const productsFetch = (inputValue: string, page: number, fromPageChnage = false, fromPageFilter = false,  filter:Filter = {}):
 ThunkAction<void,{shoppingCart: ShoppingCart, products: Products}, unknown, AnyAction>=>{
     return async (
     dispatch, 
     getState,
     )=>{
+        const currentState = getState()
         let searchValue:string
         if(fromPageChnage){
-            searchValue = getState().products.currentSearchValue
+            searchValue = currentState.products.currentSearchValue
+        }
+        else if(fromPageFilter){
+            searchValue = currentState.products.currentSearchValue
+            page = currentState.products.currentPage
         }
         else{
+            filter = currentState.products.filter
             searchValue = inputValue
             dispatch(productsActions.setCurrentSearchValue(inputValue))
         }
+
         const fetchRequest = async ()=>{
             dispatch(productsActions.setIsLoading(true))
             return fetch(`${API_URL}/products`,{
                 method: 'POST',
                 body: JSON.stringify({
                     title: searchValue,
-                    page: page
+                    page: page,
+                    filter
                 }),
                 headers: {
                     'Content-Type': 'application/json'
@@ -105,6 +125,7 @@ ThunkAction<void,{shoppingCart: ShoppingCart, products: Products}, unknown, AnyA
         }
 
         try{
+            dispatch(productsActions.setIsLoading(true))
             await fetchRequest()
         }
         catch(error){
