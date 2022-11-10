@@ -80,10 +80,10 @@ ThunkAction<void,{shoppingCart: ShoppingCart, products: Products}, unknown, AnyA
         const currentState = getState()
         let searchValue:string
 
-        if(changeFrom == "page"){
+        if(changeFrom === "page"){
             searchValue = currentState.products.currentSearchValue
         }
-        else if(changeFrom == "filter"){
+        else if(changeFrom === "filter"){
             dispatch(productsActions.setFilter(filter))
             searchValue = currentState.products.currentSearchValue
             page = currentState.products.currentPage

@@ -82,6 +82,18 @@
         padding: 2%;
     }
 }
+@media only screen and (max-width: 710px) {
+    #filter-container{
+        width: 28.8%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .product{
+        width: 40%;
+    }
+}
+
 
 .products-is-empty{
     margin-top: 3%;

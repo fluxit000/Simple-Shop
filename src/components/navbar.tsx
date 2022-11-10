@@ -23,7 +23,7 @@ const Navbar = ()=>{
       setFirstRender(false)
       return
     }
-    if(location.pathname == "/"){
+    if(location.pathname === "/"){
       dispatch(productsFetch("",1))
     }
     setInput("")

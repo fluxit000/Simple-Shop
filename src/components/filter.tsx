@@ -1,4 +1,4 @@
-import { useEffect, useState, memo } from 'react';
+import { useEffect, useState } from 'react';
 import { useAppDispatch } from '../store';
 import { productsFetch } from '../store/slices/products';
 import './filter.css';
