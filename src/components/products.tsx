@@ -23,6 +23,7 @@ const Products = ()=>{
   const products = useSelector((s: RootState)=>s.products.products)
   const isLoading = useSelector((s: RootState)=>s.products.isLoading)
   const hasError = useSelector((s: RootState)=>s.products.hasError)
+  const lastPage = useSelector((s:RootState)=>s.products.lastPage)
 
   const dispatch = useAppDispatch()
   const navigate = useNavigate()
@@ -38,8 +39,6 @@ const Products = ()=>{
   useEffect(()=>{
     dispatch(productsFetch("", 1))
   },[])
-
-  //product.title.length > 20 && width < 680 ? product.title.slice(0,20)+"...":product.title
 
   const navigateToProduct = (id: string)=>{
     navigate("/product/"+id)
@@ -59,13 +58,10 @@ const Products = ()=>{
   }
 
   return(<>
-
-  
-  
   <div id="products-container">
     <Filter/>
-    {!isLoading && <div id="products">
-      {products.length === 0 && !hasError && <div className="products-is-empty">
+    <div id="products">
+      {(products.length === 0 && !hasError && !isLoading) && <div className="products-is-empty">
         Nie znaleziono takich produktów.
       </div>}
 
@@ -78,7 +74,7 @@ const Products = ()=>{
       Bląd połaczenia z serwer spróbuj ponownie
       </div>}
 
-      {products.length !== 0 && products.map((product:Product)=>
+      {(products.length !== 0 && !isLoading) && products.map((product:Product)=>
         <article 
           onClick={(e)=>onClickProduct(e, product._id)} 
           className="product" key={product._id} 
@@ -92,14 +88,14 @@ const Products = ()=>{
               src={`${API_URL}/images/${product._id}/1.jpg`}
               alt={product.title}/>
           </div>
-          <div className="product-title">{product.title}</div>
+          <div className="product-title">{product.title.length > 20 ? product.title.slice(0,40)+"...":product.title}</div>
           <div className="product-price">{product.price} zł</div>
           <div className="icon-svg add-product-button" onClick={(e)=>dispatch(addToCard(product._id))}>add_shopping_cart</div>
         </article>
       )}
-    </div>}
+    </div>
   </div>
-  {!hasError && <Pagination/>}
+  {(!hasError && !(lastPage == 1) && !isLoading) && <Pagination/>}
   </>)
 }
 
